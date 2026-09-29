@@ -549,7 +549,7 @@ fn coordinated_tail(
             break;
         }
         let lower = normalized_word(&sentence[next_idx], source);
-        let conjunction = matches!(lower.as_str(), "and" | "or");
+        let conjunction = matches!(lower.as_str(), "and" | "or" | "but" | "yet");
         if conjunction {
             pos += 1;
         } else if !separator.iter().any(|t| t.kind.is_comma()) {
@@ -567,9 +567,22 @@ fn coordinated_tail(
             break;
         };
         let token = &sentence[idx];
-        if sentence[next_idx..idx]
-            .iter()
-            .any(|t| !t.kind.is_word() && !t.kind.is_whitespace())
+        // A contrast can introduce a new active predicate sharing the same
+        // subject: "The candidate was interviewed but rejected the offer."
+        // A following object is a useful signal that the auxiliary does not
+        // carry over to this verb.
+        let contrast_with_object = matches!(lower.as_str(), "but" | "yet")
+            && !allows_retained_object(&normalized_word(token, source))
+            && word_indices.get(pos + 1).is_some_and(|&following_idx| {
+                !has_hard_boundary(&sentence[idx + 1..following_idx])
+                    && (sentence[following_idx].kind.is_determiner()
+                        || sentence[following_idx].kind.is_pronoun()
+                        || is_contextual_noun(&sentence[following_idx]))
+            });
+        if contrast_with_object
+            || sentence[next_idx..idx]
+                .iter()
+                .any(|t| !t.kind.is_word() && !t.kind.is_whitespace())
             || is_descriptive_compound(sentence, idx, source)
             || !is_participle_candidate(token, source)
             || should_suppress_adjectival(
@@ -859,6 +872,23 @@ fn has_state_complement(
     }
 }
 
+fn allows_retained_object(lower: &str) -> bool {
+    matches!(
+        lower,
+        "given"
+            | "told"
+            | "paid"
+            | "offered"
+            | "awarded"
+            | "taught"
+            | "denied"
+            | "shown"
+            | "asked"
+            | "sent"
+            | "promised"
+    )
+}
+
 fn is_attributive_after_get(
     sentence: &[Token],
     indices: &[usize],
@@ -877,19 +907,7 @@ fn is_attributive_after_get(
     }
     let lower = normalized_word(&sentence[indices[pos]], source);
     // Ditransitive passives can legitimately retain a nominal object.
-    if matches!(
-        lower.as_str(),
-        "given"
-            | "told"
-            | "paid"
-            | "offered"
-            | "awarded"
-            | "taught"
-            | "denied"
-            | "shown"
-            | "asked"
-            | "sent"
-    ) {
+    if allows_retained_object(&lower) {
         return false;
     }
     let next_lower = normalized_word(&sentence[next], source);
@@ -1492,6 +1510,22 @@ mod tests {
     }
 
     #[test]
+    fn detects_contrasting_coordinated_passives() {
+        for text in [
+            "The report was reviewed but later rejected.",
+            "The plan was proposed but not adopted.",
+            "The contract was signed, but not delivered.",
+            "The company was launched yet quickly closed.",
+        ] {
+            passive(text);
+        }
+        passive("The candidate was interviewed but rejected the offer.");
+        passive("The candidate was interviewed yet declined the job.");
+        passive("The candidate was interviewed but rejected it.");
+        passive("The candidate was interviewed but offered a job.");
+    }
+
+    #[test]
     fn detects_reduced_passives_with_agents() {
         passive("Arrested by the police, he never thought this would be his end.");
         passive("The report written by Alice was useful.");
@@ -1624,6 +1658,8 @@ mod tests {
             ("Was the report that Alice wrote published?", 1),
             ("The file was deleted and the report was printed.", 2),
             ("The file was reviewed, approved, and published.", 1),
+            ("The file was reviewed but later rejected.", 1),
+            ("The candidate was interviewed but rejected the offer.", 1),
             ("The file was reviewed and Alice approved it.", 1),
             ("The report was reviewed and approved by Alice.", 1),
             ("The file WAS DELETED.", 1),
@@ -1772,6 +1808,22 @@ mod tests {
             ),
             ("Was the report written?", "Was the report written"),
             ("The employee was promoted and left-handed.", "was promoted"),
+            (
+                "The report was reviewed but later rejected.",
+                "was reviewed but later rejected",
+            ),
+            (
+                "The plan was proposed but not adopted.",
+                "was proposed but not adopted",
+            ),
+            (
+                "The candidate was interviewed but rejected the offer.",
+                "was interviewed",
+            ),
+            (
+                "The candidate was interviewed but rejected it.",
+                "was interviewed",
+            ),
         ] {
             let doc = Document::new_plain_english_curated(text);
             let lints = PassiveVoice.lint(&doc);
