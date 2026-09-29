@@ -38,7 +38,7 @@ The rule covers be/get/become constructions, modal and perfect chains, interveni
 
 This is a heuristic style rule, not a dependency parser. Its bounded context scans keep processing local. Ambiguous result states, ambiguous `'s` contractions without an explicit agent, and agentless reduced relatives using regular past-tense forms deliberately favor avoiding false positives. For example, `It's broken` and `the door closed` are left alone. A contextual verb tag or lexical verb metadata allows recovery when the dictionary lacks past-participle annotations, but ordinary suffixes alone are insufficient.
 
-The `passive_voice_quality` integration test contains 139 hand-labeled cases across coordination, auxiliary chains, questions, reduced relatives, result states, active constructions, and clause boundaries. It checks the exact text highlighted by each warning. These deliberately difficult examples are regression guards, not a representative estimate of accuracy on all English writing. In ambiguous cases such as `The account was opened by staff but closed the next day`, the rule warns only about the clear first passive.
+The `passive_voice_quality` integration test contains 138 hand-labeled cases across coordination, auxiliary chains, questions, reduced relatives, result states, active constructions, and clause boundaries. It checks the exact text highlighted by each warning. These deliberately difficult examples are regression guards, not a representative estimate of accuracy on all English writing. In ambiguous cases such as `The account was opened by staff but closed the next day`, the rule warns only about the clear first passive.
 
 ## Verification
 
