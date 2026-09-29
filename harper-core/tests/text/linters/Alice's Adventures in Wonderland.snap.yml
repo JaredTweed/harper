@@ -1746,6 +1746,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1051 | another! However, I’ve got back to my right size: the next thing is, to get into
+    1052 | that beautiful garden—how is that to be done, I wonder?” As she said this, she
+         |                                   ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1055 | this size: why, I should frighten them out of their wits!” So she began nibbling

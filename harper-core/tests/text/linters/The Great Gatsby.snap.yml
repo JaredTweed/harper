@@ -2427,6 +2427,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1689 | Blinded by the glare of the headlights and confused by the incessant groaning of
+         |                                            ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1690 | the horns, the apparition stood swaying for a moment before he perceived the man
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1693 | “Wha’s matter?” he inquired calmly. “Did we run outa gas?”
@@ -9150,6 +9158,13 @@ Message: |
     5700 | After Gatsby’s death the East was haunted for me like that, distorted beyond my
          |                               ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
     5701 | eyes’ power of correction. So when the blue smoke of brittle leaves was in the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5705 | There was one thing to be done before I left, an awkward, unpleasant thing that
+         |                     ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 

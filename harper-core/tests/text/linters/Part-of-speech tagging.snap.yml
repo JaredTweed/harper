@@ -267,6 +267,13 @@ Suggest:
 
 Lint:    Style (180 priority)
 Message: |
+      69 | POS tagging work has been done in a variety of languages, and the set of POS
+         |                  ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
       70 | tags used varies greatly with language. Tags usually are designed to include
          |                                                      ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
       71 | overt morphological distinctions, although this leads to inconsistencies such as

@@ -29,6 +29,7 @@ impl Linter for PassiveVoice {
 
         for sentence in document.iter_sentences() {
             let word_indices: Vec<usize> = sentence.iter_word_indices().collect();
+            let is_question = sentence_is_question(sentence, source);
             let mut covered_through = None;
 
             for (word_pos, &token_idx) in word_indices.iter().enumerate() {
@@ -45,9 +46,14 @@ impl Linter for PassiveVoice {
                 }
                 let by_agent = has_agentive_by(sentence, &word_indices, word_pos, source);
 
-                let Some((passive_source, start_idx)) =
-                    classify_passive(sentence, &word_indices, word_pos, source, by_agent)
-                else {
+                let Some((passive_source, start_idx)) = classify_passive(
+                    sentence,
+                    &word_indices,
+                    word_pos,
+                    source,
+                    by_agent,
+                    is_question,
+                ) else {
                     continue;
                 };
 
@@ -59,13 +65,13 @@ impl Linter for PassiveVoice {
                         source,
                         passive_source,
                     )
-                    || should_suppress_adjectival(
+                    || (should_suppress_adjectival(
                         candidate,
                         source,
                         by_agent,
                         passive_source,
                         has_event_evidence(sentence, &word_indices, word_pos, source),
-                    )
+                    ) && !has_clear_done_passive(sentence, &word_indices, word_pos, source))
                 {
                     continue;
                 }
@@ -172,6 +178,32 @@ fn can_be_reduced_passive(
             break;
         }
     }
+    // A second participle can share the first passive's subject even when
+    // each verb has its own agent: "was signed by Alice and filed by Bob".
+    if word_pos >= 3
+        && matches!(
+            normalized_word(&sentence[word_indices[word_pos - 1]], source).as_str(),
+            "and" | "or" | "but" | "yet"
+        )
+    {
+        for by_pos in (1..word_pos - 1).rev().take(6) {
+            let by_idx = word_indices[by_pos];
+            if sentence[by_idx + 1..candidate_idx].iter().any(|token| {
+                (token.kind.is_chunk_terminator() && !token.kind.is_comma())
+                    || token.kind.is_unlintable()
+                    || (token.kind.is_punctuation()
+                        && !token.kind.is_hyphen()
+                        && !token.kind.is_comma())
+            }) {
+                break;
+            }
+            if normalized_word(&sentence[by_idx], source) == "by"
+                && is_participle_candidate(&sentence[word_indices[by_pos - 1]], source)
+            {
+                return true;
+            }
+        }
+    }
     let Some(mut previous_pos) = word_pos.checked_sub(1) else {
         return true;
     };
@@ -208,6 +240,7 @@ fn has_measure_by_after(sentence: &[Token], candidate_idx: usize, source: &[char
     let tail = &sentence[candidate_idx + 1..];
     let Some(by_pos) = tail
         .iter()
+        .take(32)
         .take_while(|t| !t.kind.is_chunk_terminator())
         .position(|t| normalized_word(t, source) == "by")
     else {
@@ -246,6 +279,7 @@ fn classify_passive(
     word_pos: usize,
     source: &[char],
     by_agent: bool,
+    is_question: bool,
 ) -> Option<(PassiveSource, usize)> {
     if let Some((kind, aux_idx)) = preceding_passive_aux(sentence, word_indices, word_pos, source) {
         return Some((kind, aux_idx));
@@ -255,7 +289,7 @@ fn classify_passive(
     // The ordinary backwards scan intentionally stops at nominals, so handle this
     // inversion separately and only when the sentence is actually interrogative.
     if let Some((kind, aux_idx)) =
-        preceding_inverted_passive_aux(sentence, word_indices, word_pos, source)
+        preceding_inverted_passive_aux(sentence, word_indices, word_pos, source, is_question)
     {
         return Some((kind, aux_idx));
     }
@@ -271,7 +305,14 @@ fn classify_passive(
     }
 
     if is_existential_reduced_passive(sentence, word_indices, word_pos, source)
-        || is_strong_irregular_reduced_passive(sentence, word_indices, word_pos, source)
+        || is_temporal_reduced_passive(sentence, word_indices, word_pos, source)
+        || is_strong_irregular_reduced_passive(
+            sentence,
+            word_indices,
+            word_pos,
+            source,
+            is_question,
+        )
     {
         return Some((PassiveSource::Reduced, word_indices[word_pos]));
     }
@@ -350,8 +391,9 @@ fn preceding_inverted_passive_aux(
     word_indices: &[usize],
     word_pos: usize,
     source: &[char],
+    is_question: bool,
 ) -> Option<(PassiveSource, usize)> {
-    if !sentence_is_question(sentence, source) || word_pos == 0 {
+    if !is_question || word_pos == 0 {
         return None;
     }
 
@@ -481,10 +523,16 @@ fn auxiliary_chain_start(
         }
         let token = &sentence[idx];
         let lower = normalized_word(token, source);
+        let next_word_pos = word_indices.partition_point(|&word_idx| word_idx <= idx);
+        let going_to = lower == "going"
+            && word_indices
+                .get(next_word_pos)
+                .is_some_and(|&next_idx| normalized_word(&sentence[next_idx], source) == "to");
         if is_contextual_noun(token) || (idx > 0 && sentence[idx - 1].kind.is_hyphen()) {
             break;
         }
         if is_be_form(&lower)
+            || going_to
             || is_unambiguous_be_contraction(&lower)
             || lower.ends_with("'s")
             || lower.ends_with("'d")
@@ -524,6 +572,15 @@ fn auxiliary_chain_start(
         } else if !is_gap_modifier(token, &lower) {
             break;
         }
+    }
+    let pos = word_indices.partition_point(|&idx| idx < start);
+    if pos >= 2
+        && normalized_word(&sentence[word_indices[pos - 1]], source) == "or"
+        && normalized_word(&sentence[word_indices[pos - 2]], source)
+            == normalized_word(&sentence[start], source)
+        && !has_hard_boundary(&sentence[word_indices[pos - 2] + 1..start])
+    {
+        start = word_indices[pos - 2];
     }
     start
 }
@@ -670,14 +727,82 @@ fn is_existential_reduced_passive(
     false
 }
 
-fn is_strong_irregular_reduced_passive(
+/// A noun followed by a participle, a time modifier, and a separate finite
+/// predicate has the shape of a reduced relative, even for forms shared with
+/// the simple past: "the package sent yesterday arrived".
+fn is_temporal_reduced_passive(
     sentence: &[Token],
     word_indices: &[usize],
     word_pos: usize,
     source: &[char],
 ) -> bool {
+    let Some(previous_pos) = word_pos.checked_sub(1) else {
+        return false;
+    };
+    let Some(&time_idx) = word_indices.get(word_pos + 1) else {
+        return false;
+    };
+    let Some(&predicate_idx) = word_indices.get(word_pos + 2) else {
+        return false;
+    };
+    let previous_idx = word_indices[previous_pos];
+    let candidate_idx = word_indices[word_pos];
+    // Many verbs are also intransitive ("the door closed yesterday remains
+    // shut"). Only recover common transitive forms in this ambiguous shape.
+    let lower = normalized_word(&sentence[candidate_idx], source);
+    matches!(
+        lower.as_str(),
+        "sent"
+            | "read"
+            | "written"
+            | "seen"
+            | "found"
+            | "given"
+            | "taken"
+            | "built"
+            | "chosen"
+            | "reviewed"
+            | "approved"
+            | "published"
+            | "reported"
+            | "filed"
+            | "signed"
+    ) && is_contextual_noun(&sentence[previous_idx])
+        && sentence[candidate_idx].kind.is_upos(UPOS::VERB)
+        && matches!(
+            normalized_word(&sentence[time_idx], source).as_str(),
+            "yesterday" | "today" | "recently"
+        )
+        && (sentence[predicate_idx].kind.is_upos(UPOS::VERB)
+            || sentence[predicate_idx].kind.is_upos(UPOS::AUX))
+        && !has_hard_boundary(&sentence[previous_idx + 1..predicate_idx])
+}
+
+fn is_strong_irregular_reduced_passive(
+    sentence: &[Token],
+    word_indices: &[usize],
+    word_pos: usize,
+    source: &[char],
+    is_question: bool,
+) -> bool {
     let candidate_idx = word_indices[word_pos];
     let candidate = &sentence[candidate_idx];
+
+    // In a question, the finite perfect auxiliary can precede the subject:
+    // "Has Alice written the report?" is active, not a reduced relative.
+    if is_question
+        && word_indices[..word_pos].iter().take(3).any(|&idx| {
+            matches!(
+                normalized_word(&sentence[idx], source).as_str(),
+                "have" | "has" | "had" | "haven't" | "hasn't" | "hadn't"
+            )
+        })
+        && !word_indices[..word_pos]
+            .iter()
+            .any(|&idx| is_be_form(&normalized_word(&sentence[idx], source)))
+    {
+        return false;
+    }
 
     // For regular verbs the preterite and past participle are identical, so without
     // a dependency parser "the door closed" cannot safely be distinguished from
@@ -964,6 +1089,69 @@ fn has_event_evidence(sentence: &[Token], indices: &[usize], pos: usize, source:
     false
 }
 
+fn has_clear_done_passive(
+    sentence: &[Token],
+    indices: &[usize],
+    pos: usize,
+    source: &[char],
+) -> bool {
+    if normalized_word(&sentence[indices[pos]], source) != "done" {
+        return false;
+    }
+    let subject = indices[..pos]
+        .iter()
+        .rev()
+        .take(8)
+        .find(|&&idx| is_contextual_noun(&sentence[idx]) || sentence[idx].kind.is_pronoun());
+    if subject.is_some_and(|&idx| {
+        matches!(
+            normalized_word(&sentence[idx], source).as_str(),
+            "i" | "you" | "he" | "she" | "we" | "they"
+        )
+    }) {
+        return false;
+    }
+    let mut previous_pos = pos;
+    while let Some(idx) = previous_pos.checked_sub(1) {
+        let lower = normalized_word(&sentence[indices[idx]], source);
+        if is_gap_modifier(&sentence[indices[idx]], &lower) {
+            previous_pos = idx;
+            continue;
+        }
+        let before = indices[..idx].iter().rev().take(4).find_map(|&prev_idx| {
+            let word = normalized_word(&sentence[prev_idx], source);
+            (!is_gap_modifier(&sentence[prev_idx], &word)).then_some(word)
+        });
+        return match lower.as_str() {
+            "being" => true,
+            "been" => before.is_some_and(|word| matches!(word.as_str(), "have" | "has" | "had")),
+            "be" => before.is_some_and(|word| {
+                matches!(
+                    word.as_str(),
+                    "to" | "can"
+                        | "could"
+                        | "may"
+                        | "might"
+                        | "must"
+                        | "shall"
+                        | "should"
+                        | "will"
+                        | "would"
+                        | "can't"
+                        | "cannot"
+                        | "couldn't"
+                        | "shouldn't"
+                        | "won't"
+                        | "wouldn't"
+                        | "mustn't"
+                )
+            }),
+            _ => false,
+        };
+    }
+    false
+}
+
 fn should_suppress_adjectival(
     token: &Token,
     source: &[char],
@@ -1195,7 +1383,17 @@ fn by_phrase_is_nonagentive(sentence: &[Token], by_idx: usize, source: &[char]) 
     // determiner-led phrases available as agents (e.g. "hit by a train").
     if matches!(
         lower.as_str(),
-        "phone" | "email" | "fax" | "train" | "bus" | "plane" | "air" | "sea" | "candlelight"
+        "phone"
+            | "email"
+            | "fax"
+            | "train"
+            | "bus"
+            | "plane"
+            | "air"
+            | "sea"
+            | "candlelight"
+            | "cesarean"
+            | "caesarean"
     ) {
         return true;
     }
@@ -1240,6 +1438,12 @@ fn by_phrase_is_nonagentive(sentence: &[Token], by_idx: usize, source: &[char]) 
                 | "door"
                 | "river"
                 | "lake"
+                | "island"
+                | "coast"
+                | "shore"
+                | "beach"
+                | "harbor"
+                | "ocean"
                 | "road"
                 | "stairs"
         )
@@ -1473,6 +1677,9 @@ mod tests {
         passive("The file can be opened.");
         passive("Politics would have to be considered.");
         passive("Some politicians are not to be trusted.");
+        passive("The work must not be done.");
+        passive("The task has not been done.");
+        passive("The work can't be done.");
     }
 
     #[test]
@@ -1607,6 +1814,8 @@ mod tests {
     fn avoids_active_or_adjectival_questions() {
         active("Was John tired?");
         active("Has she written the letter?");
+        active("Hasn't Alice written the report?");
+        active("Hasn’t Alice written the report?");
         active("Did the committee approve the report?");
     }
 
@@ -1623,6 +1832,7 @@ mod tests {
         active("I am done.");
         active("He was born in Canada.");
         active("He is drunk.");
+        active("I can't be done with this yet.");
     }
 
     #[test]
@@ -1648,6 +1858,8 @@ mod tests {
             ("She has written the report by hand.", 0),
             ("They had completed the task by noon.", 0),
             ("He walked by the river.", 0),
+            ("The vessel sailed by the coast.", 0),
+            ("The hikers walked by the beach.", 0),
             ("The committee approved the proposal by a wide margin.", 0),
             ("She read by the window.", 0),
             ("He is tired and walks by the river.", 0),

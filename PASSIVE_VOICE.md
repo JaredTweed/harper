@@ -25,6 +25,8 @@ The rule covers be/get/become constructions, modal and perfect chains, interveni
 | The file may already have been deleted. | Highlights the full verb phrase |
 | Was the report written? | Detects the inverted passive |
 | The report was reviewed, approved, and published. | One highlight for the list |
+| The contract was signed by Alice and canceled by Bob. | Two highlights, one for each participle |
+| The report may or may not be approved. | Highlights the full auxiliary chain |
 | The report written by Alice was published. | Two passive constructions |
 | She has written the report by hand. | No passive warning |
 | He got written permission. | No passive warning |
@@ -35,10 +37,13 @@ The rule covers be/get/become constructions, modal and perfect chains, interveni
 
 This is a heuristic style rule, not a dependency parser. Its bounded context scans keep processing local. Ambiguous result states, ambiguous `'s` contractions without an explicit agent, and agentless reduced relatives using regular past-tense forms deliberately favor avoiding false positives. For example, `It's broken` and `the door closed` are left alone. A contextual verb tag or lexical verb metadata allows recovery when the dictionary lacks past-participle annotations, but ordinary suffixes alone are insufficient.
 
+The `passive_voice_quality` integration test contains 132 hand-labeled cases across coordination, auxiliary chains, questions, reduced relatives, result states, active constructions, and clause boundaries. It checks the exact text highlighted by each warning. These deliberately difficult examples are regression guards, not a representative estimate of accuracy on all English writing. In ambiguous cases such as `The account was opened by staff but closed the next day`, the rule warns only about the clear first passive.
+
 ## Verification
 
 ```sh
 cargo test -p harper-core passive_voice
+cargo test -p harper-core --test passive_voice_quality
 just test-rust
 just format
 ```
