@@ -61,6 +61,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      18 | when it appears in a normal person, and so it came about that in college I was
+         |                                                                            ^~~~
+      19 | unjustly accused of being a politician, because I was privy to the secret griefs
+         | ~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       20 | of wild, unknown men. Most of the confidences were unsought—frequently I have
@@ -76,6 +85,22 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      20 | of wild, unknown men. Most of the confidences were unsought—frequently I have
+         |                                               ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      21 | feigned sleep, preoccupation, or a hostile levity when I realized by some
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      27 | snobbishly repeat, a sense of the fundamental decencies is parcelled out
+         |                                                         ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      28 | unequally at birth.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
       27 | snobbishly repeat, a sense of the fundamental decencies is parcelled out
@@ -83,6 +108,13 @@ Message: |
       28 | unequally at birth.
 Suggest:
   - Replace with: “parceled”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      31 | has a limit. Conduct may be founded on the hard rock or the wet marshes, but
+         |                      ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -124,6 +156,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       44 | person and which it is not likely I shall ever find again. No—Gatsby turned out
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 51 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      41 | responsiveness had nothing to do with that flabby impressionability which is
+         |                                                                           ^~~
+      42 | dignified under the name of the “creative temperament”—it was an extraordinary
+         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -178,6 +219,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      56 | I never saw this great-uncle, but I’m supposed to look like him—with special
+         |                                   ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      57 | reference to the rather hard-boiled painting that hangs in father’s office. I
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      59 | and a little later I participated in that delayed Teutonic migration known as
+         |                                                                      ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      60 | the Great War. I enjoyed the counter-raid so thoroughly that I came back
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
       61 | restless. Instead of being the warm centre of the world, the Middle West now
@@ -226,6 +283,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      92 | There was so much to read, for one thing, and so much fine health to be pulled
+         |                                                                   ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      93 | down out of the young breath-giving air. I bought a dozen volumes on banking and
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       93 | down out of the young breath-giving air. I bought a dozen volumes on banking and
@@ -259,6 +324,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      100 | all specialists, the “well-rounded man.” This isn’t just an epigram—life is much
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 49 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     100 | all specialists, the “well-rounded man.” This isn’t just an epigram—life is much
+         |                                                                          ^~~~~~~~
+     101 | more successfully looked at from a single window, after all.
+         | ~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -322,6 +396,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     123 | rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman
+         |                                                       ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     124 | of that name. My own house was an eyesore, but it was a small eyesore, and it
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      124 | of that name. My own house was an eyesore, but it was a small eyesore, and it
@@ -332,6 +414,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      127 | dollars a month.
          | ~~~~~~~~~~~~~~~~ This sentence is 44 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     124 | of that name. My own house was an eyesore, but it was a small eyesore, and it
+     125 | had been overlooked, so I had a view of the water, a partial view of my
+         | ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -407,6 +497,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     157 | as though from the momentum of its run. The front was broken by a line of French
+         |                                                   ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     158 | windows, glowing now with reflected gold and wide open to the warm windy
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      165 | appearance of always leaning aggressively forward. Not even the effeminate swank
@@ -464,6 +562,39 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     200 | The only completely stationary object in the room was an enormous couch on which
+     201 | two young women were buoyed up as though upon an anchored balloon. They were
+         |                 ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     202 | both in white, and their dresses were rippling and fluttering as if they had
+         |                                                                          ^~~~
+     203 | just been blown back in after a short flight around the house. I must have stood
+         | ~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     209 | The younger of the two was a stranger to me. She was extended full length at her
+         |                                                  ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     210 | end of the divan, completely motionless, and with her chin raised a little, as
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     235 | voice. It was the kind of voice that the ear follows up and down, as if each
+     236 | speech is an arrangement of notes that will never be played again. Her face was
+         |                                        ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      236 | speech is an arrangement of notes that will never be played again. Her face was
@@ -490,6 +621,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     318 | Before I could reply that he was my neighbor dinner was announced; wedging his
+         |                                                     ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Formatting (255 priority)
 Message: |
      334 | “All right,” said Daisy. ‘‘What’ll we plan?” She turned to me helplessly: ‘‘What
@@ -501,6 +639,52 @@ Lint:    Formatting (255 priority)
 Message: |
      335 | do people plan?”
          |                ^ This quote has no termination.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     355 | and they accepted Tom and me, making only a polite pleasant effort to entertain
+     356 | or to be entertained. They knew that presently dinner would be over and a little
+         |    ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     358 | different from the West, where an evening was hurried from phase to phase toward
+         |                                           ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     359 | its close, in a continually disappointed anticipation or else in sheer nervous
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     365 | I meant nothing in particular by this remark, but it was taken up in an
+         |                                                      ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     366 | unexpected way.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     372 | “Why, no,” I answered, rather surprised by his tone.
+         |                               ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     374 | “Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t
+     375 | look out the white race will be—will be utterly submerged. It’s all scientific
+         |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     376 | stuff; it’s been proved.”
+         |        ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -551,6 +735,13 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     464 | “It couldn’t be helped!” cried Daisy with tense gayety.
+         |     ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      464 | “It couldn’t be helped!” cried Daisy with tense gayety.
@@ -559,6 +750,14 @@ Suggest:
   - Replace with: “gaiety”
   - Replace with: “gamely”
   - Replace with: “gamete”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     476 | the broken fragments of the last five minutes at table I remember the candles
+     477 | being lit again, pointlessly, and I was conscious of wanting to look squarely at
+         | ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -580,6 +779,13 @@ Message: |
 Suggest:
   - Replace with: “skepticism”
   - Replace with: “asceticism”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     484 | The horses, needless to say, were not mentioned again. Tom and Miss Baker, with
+         |                              ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -617,6 +823,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     543 | “To be continued,” she said, tossing the magazine on the table, “in our very
+         |  ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      551 | “Jordan’s going to play in the tournament tomorrow,” explained Daisy, “over at
@@ -648,10 +861,34 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     589 | “From Louisville. Our white girlhood was passed together there. Our beautiful
+         |                                      ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Formatting (255 priority)
 Message: |
      603 | square of light. As I started my motor Daisy peremptorily called: “Wait!
          |                                                                   ^ This quote has no termination.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     617 | East. You can’t stop going with an old friend on account of rumors, and on the
+     618 | other hand I had no intention of being rumored into marriage.
+         |                                  ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     624 | some woman in New York” was really less surprising than that he had been
+         |                                                                 ^~~~~~~~~
+     625 | depressed by a book. Something was making him nibble at the edge of stale ideas
+         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -832,6 +1069,27 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     673 | The valley of ashes is bounded on one side by a small foul river, and, when the
+         |                     ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     679 | The fact that he had one was insisted upon wherever he was known. His
+         |                          ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     679 | The fact that he had one was insisted upon wherever he was known. His
+         |                                                        ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      683 | up to New York with Tom on the train one afternoon, and when we stopped by the
@@ -875,6 +1133,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     697 | absolutely nothing. One of the three shops it contained was for rent and another
+     698 | was an all-night restaurant, approached by a trail of ashes; the third was a
+         |                              ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      699 | garage—Repairs. George B. Wilson. Cars bought and sold.—and I followed Tom
@@ -906,6 +1172,14 @@ Message: |
          |              ^~~~~~~~~~~ The word `of` is not needed here.
 Suggest:
   - Replace with: “shadow a”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     704 | me that this shadow of a garage must be a blind, and that sumptuous and romantic
+     705 | apartments were concealed overhead, when the proprietor himself appeared in the
+         |            ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -971,6 +1245,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     785 | Rockefeller. In a basket swung from his neck cowered a dozen very recent puppies
+         |                          ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Style (31 priority)
 Message: |
      819 | We drove over to Fifth Avenue, warm and soft, almost pastoral, on the summer
@@ -987,6 +1268,14 @@ Message: |
      826 | to the apartment. Won’t you, Myrtle?”
 Suggest:
   - Replace with: “Myrtle's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     825 | “No, you don’t,” interposed Tom quickly. “Myrtle’ll be hurt if you don’t come up
+         |                                                     ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     826 | to the apartment. Won’t you, Myrtle?”
 
 
 
@@ -1036,6 +1325,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     870 | solid, sticky bob of red hair, and a complexion powdered milky white. Her
+     871 | eyebrows had been plucked and then drawn on again at a more rakish angle, but
+         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    WordChoice (63 priority)
 Message: |
      877 | immoderately, repeated my question aloud, and told me she lived with a girl
@@ -1054,6 +1351,31 @@ Message: |
          |                 ^~~~~~~~~ Did you mean the closed compound `everyone`?
 Suggest:
   - Replace with: “everyone”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     889 | Mrs. Wilson had changed her costume some time before, and was now attired in an
+         |                                                           ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     890 | elaborate afternoon dress of cream-colored chiffon, which gave out a continual
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     892 | personality had also undergone a change. The intense vitality that had been so
+     893 | remarkable in the garage was converted into impressive hauteur. Her laughter,
+         |                          ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     893 | remarkable in the garage was converted into impressive hauteur. Her laughter,
+     894 | her gestures, her assertions became more violently affected moment by moment,
+         |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     895 | and as she expanded the room grew smaller around her, until she seemed to be
 
 
 
@@ -1125,6 +1447,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     973 | This absorbing information about my neighbor was interrupted by Mrs. McKee’s
+         |                                              ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      989 | studies of him.” His lips moved silently for a moment as he invented. “‘George
@@ -1189,6 +1518,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1081 | chair. Yet high over the city our line of yellow windows must have contributed
          | ~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1083 | I saw him too, looking up and wondering. I was within and without,
+    1084 | simultaneously enchanted and repelled by the inexhaustible variety of life.
+         |                ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1313,6 +1650,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1174 | juice of two hundred oranges in half an hour if a little button was pressed two
+         |                                                                 ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1175 | hundred times by a butler’s thumb.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1179 | enormous garden. On buffet tables, garnished with glistening hors-d’œuvre,
@@ -1333,6 +1678,14 @@ Message: |
 Suggest:
   - Replace with: “demure”
   - Replace with: “oeuvre”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1181 | and turkeys bewitched to a dark gold. In the main hall a bar with a real brass
+    1182 | rail was set up, and stocked with gins and liquors and with cordials so long
+         |      ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1373,6 +1726,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1189 | now and are dressing up-stairs; the cars from New York are parked five deep in
+         |                                                        ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1190 | the drive, and already the halls and salons and verandas are gaudy with primary
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1191 | colors, and hair bobbed in strange new ways, and shawls beyond the dreams of
@@ -1395,6 +1756,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1195 | between women who never knew each other’s names.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 44 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1193 | garden outside, until the air is alive with chatter and laughter, and casual
+    1194 | innuendo and introductions forgotten on the spot, and enthusiastic meetings
+         |                            ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1435,6 +1804,36 @@ Suggest:
   - Replace with: “center”
   - Replace with: “cent's”
   - Replace with: “censure”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1214 | I believe that on the first night I went to Gatsby’s house I was one of the few
+    1215 | guests who had actually been invited. People were not invited—they went there.
+         |            ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1215 | guests who had actually been invited. People were not invited—they went there.
+         |                                              ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1217 | ended up at Gatsby’s door. Once there they were introduced by somebody who knew
+         |                                            ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1218 | Gatsby, and after that they conducted themselves according to the rules of
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1223 | I had been actually invited. A chauffeur in a uniform of robin’s-egg blue
+         |   ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1498,6 +1897,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1271 | girls had moved casually on and her remark was addressed to the premature moon,
+         |                                            ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1272 | produced like the supper, no doubt, out of a caterer’s basket. With Jordan’s
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1287 | and address—inside of a week I got a package from Croirier’s with a new evening
@@ -1507,6 +1914,14 @@ Suggest:
   - Replace with: “Courier's”
   - Replace with: “Crosier's”
   - Replace with: “Croupier's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1292 | “Sure I did. I was going to wear it to-night, but it was too big in the bust and
+    1293 | had to be altered. It was gas blue with lavender beads. Two hundred and
+         | ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1527,6 +1942,22 @@ Suggest:
   - Replace with: “skeptically”
   - Replace with: “scenically”
   - Replace with: “ascetically”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1328 | The first supper—there would be another one after midnight—was now being served,
+         |                                                            ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1329 | and Jordan invited me to join her own party, who were spread around a table on
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1329 | and Jordan invited me to join her own party, who were spread around a table on
+         |                                                  ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1330 | the other side of the garden. There were three married couples and Jordan’s
 
 
 
@@ -1619,6 +2050,36 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1381 | He snatched the book from me and replaced it hastily on its shelf, muttering
+    1382 | that if one brick was removed the whole library was liable to collapse.
+         |                   ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1384 | “Who brought you?” he demanded. “Or did you just come? I was brought. Most
+         |                                                          ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1384 | “Who brought you?” he demanded. “Or did you just come? I was brought. Most
+    1385 | people were brought.”
+         |        ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1389 | “I was brought by a woman named Roosevelt,” he continued. “Mrs. Claud Roosevelt.
+         |    ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1389 | “I was brought by a woman named Roosevelt,” he continued. “Mrs. Claud Roosevelt.
@@ -1650,6 +2111,14 @@ Message: |
     1408 | jazz, and between the numbers people were doing ‘‘stunts” all over the garden,
          |                                                         ^ This quote has no termination.
     1409 | while happy, vacuous bursts of laughter rose toward the summer sky. A pair of
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1410 | stage twins, who turned out to be the girls in yellow, did a baby act in
+    1411 | costume, and champagne was served in glasses bigger than finger-bowls. The moon
+         |                        ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1686,6 +2155,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1463 | prejudice in your favor. It understood you just so far as you wanted to be
+         |                                                                      ^~~~~~
+    1464 | understood, believed in you as you would like to believe in yourself, and
+         | ~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Style (31 priority)
 Message: |
     1466 | hoped to convey. Precisely at that point it vanished—and I was looking at an
@@ -1693,6 +2171,13 @@ Message: |
          |                             ^~~~ An Oxford comma is necessary here.
 Suggest:
   - Insert “,”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1488 | “Now you’re started on the subject,” she answered with a wan smile. “Well, he
+         |      ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1726,6 +2211,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1520 | “The piece is known,” he concluded lustily, “as ‘Vladmir Tostoff’s Jazz History
+         |            ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1520 | “The piece is known,” he concluded lustily, “as ‘Vladmir Tostoff’s Jazz History
@@ -1752,6 +2244,21 @@ Message: |
          |                   ^~~~~~~~~ Did you mean `Castoff's`?
 Suggest:
   - Replace with: “Castoff's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1525 | group to another with approving eyes. His tanned skin was drawn attractively
+         |                                                       ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1526 | tight on his face and his short hair looked as though it were trimmed every day.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1526 | tight on his face and his short hair looked as though it were trimmed every day.
+         |                                                          ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1794,6 +2301,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1533 | swooned backward on Gatsby, and no French bob touched Gatsby’s shoulder, and no
+    1534 | singing quartets were formed for Gatsby’s head for one link.
+         |                  ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1565 | inky color, and pursued the rest of their way in slow black rivulets. A humorous
+    1566 | suggestion was made that she sing the notes on her face, whereupon she threw up
+         |            ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     1574 | rent asunder by dissension. One of the men was talking with curious intensity to
@@ -1806,6 +2329,21 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1578 | and hissed: “You promised!” into his ear.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 53 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1580 | The reluctance to go home was not confined to wayward men. The hall was at
+         |                           ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1596 | the dispute ended in a short struggle, and both wives were lifted, kicking, into
+         |                                                       ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1597 | the night.
 
 
 
@@ -1835,6 +2373,14 @@ Suggest:
   - Replace with: “Sojourned”
   - Replace with: “Sojourner”
   - Replace with: “Gurney”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1618 | Rather ashamed that on my first appearance I had stayed so late, I joined the
+    1619 | last of Gatsby’s guests, who were clustered around him. I wanted to explain that
+         |                              ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1871,6 +2417,13 @@ Suggest:
   - Replace with: “coup”
   - Replace with: “coupe”
   - Replace with: “coups”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1689 | Blinded by the glare of the headlights and confused by the incessant groaning of
+         | ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1971,6 +2524,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1764 | Again at eight o’clock, when the dark lanes of the Forties were lined five deep
+         |                                                            ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1765 | with throbbing taxicabs, bound for the theatre district, I felt a sinking in my
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1764 | Again at eight o’clock, when the dark lanes of the Forties were lined five deep
@@ -2029,6 +2590,15 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1788 | was because she felt safer on a plane where any divergence from a code would be
+         |                                                                        ^~~~~~~~~
+    1789 | thought impossible. She was incurably dishonest. She wasn’t able to endure being
+         | ~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     1789 | thought impossible. She was incurably dishonest. She wasn’t able to endure being
@@ -2049,6 +2619,14 @@ Message: |
     1825 | understanding that had to be tactfully broken off before I was free.
 Suggest:
   - Insert “,”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1824 | perspiration appeared on her upper lip. Nevertheless there was a vague
+    1825 | understanding that had to be tactfully broken off before I was free.
+         |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2091,6 +2669,14 @@ Suggest:
   - Replace with: “Becker's”
   - Replace with: “Backers”
   - Replace with: “Beakers”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1849 | Bunsen, whom I knew at Yale, and Doctor Webster Civet, who was drowned last
+         |                                                            ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1850 | summer up in Maine. And the Hornbeams and the Willie Voltaires, and a whole clan
 
 
 
@@ -2545,12 +3131,28 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1873 | gamble, and when Ferret wandered into the garden it meant he was cleaned out and
+         |                                                              ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1874 | Associated Traction would have to fluctuate profitably next day.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     1876 | A man named Klipspringer was there so often and so long that he became known as
          |             ^~~~~~~~~~~~ Did you mean `Kissinger`?
 Suggest:
   - Replace with: “Kissinger”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1876 | A man named Klipspringer was there so often and so long that he became known as
+         |                                                                 ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    1877 | “the boarder”—I doubt if he had any other home. Of theatrical people there were
 
 
 
@@ -2904,6 +3506,21 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    1953 | now. I was brought up in America but educated at Oxford, because all my
+         |        ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1953 | now. I was brought up in America but educated at Oxford, because all my
+    1954 | ancestors have been educated there for many years. It is a family tradition.”
+         |           ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     1974 | “After that I lived like a young rajah in all the capitals of Europe—Paris,
@@ -2914,6 +3531,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1977 | happened to me long ago.”
          | ~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 45 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1979 | With an effort I managed to restrain my incredulous laughter. The very phrases
+    1980 | were worn so threadbare that they evoked no image except that of a turbaned
+         | ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2947,6 +3572,20 @@ Message: |
          |           ^~~~~~~ An Oxford comma is necessary here.
 Suggest:
   - Insert “,”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1991 | piles of dead. I was promoted to be a major, and every Allied government gave me
+         |                  ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    1998 | heart. My incredulity was submerged in fascination now; it was like skimming
+         |                       ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3007,6 +3646,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2013 | “Here’s another thing I always carry. A souvenir of Oxford days. It was taken in
+         |                                                                     ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2014 | Trinity Quad—the man on my left is now the Earl of Doncaster.”
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2014 | Trinity Quad—the man on my left is now the Earl of Doncaster.”
@@ -3052,6 +3699,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2069 | heaps and sugar lumps all built with a wish out of non-olfactory money. The city
+    2070 | seen from the Queensboro Bridge is always the city seen for the first time, in
+         | ^~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2069 | heaps and sugar lumps all built with a wish out of non-olfactory money. The city
@@ -3059,6 +3714,30 @@ Message: |
          |               ^~~~~~~~~~ Did you mean `Greensboro`?
 Suggest:
   - Replace with: “Greensboro”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2070 | seen from the Queensboro Bridge is always the city seen for the first time, in
+         |                                                    ^~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2071 | its first wild promise of all the mystery and the beauty in the world.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2073 | A dead man passed us in a hearse heaped with blooms, followed by two carriages
+         |                                                      ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2074 | with drawn blinds, and by more cheerful carriages for friends. The friends
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2076 | Europe, and I was glad that the sight of Gatsby’s splendid car was included in
+         |                                                                ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2077 | their sombre holiday. As we crossed Blackwell’s Island a limousine passed us,
 
 
 
@@ -3071,6 +3750,14 @@ Suggest:
   - Replace with: “somber”
   - Replace with: “hombre”
   - Replace with: “sober”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2077 | their sombre holiday. As we crossed Blackwell’s Island a limousine passed us,
+    2078 | driven by a white chauffeur, in which sat three modish negroes, two bucks and a
+         | ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3276,6 +3963,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2147 | “Four of them were electrocuted,” I said, remembering.
+         |               ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2150 | understand you’re looking for a business gonnegtion.”
@@ -3379,6 +4073,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2207 | I hadn’t been looking at them, but I did now. They were composed of oddly
+         |                                                    ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2208 | familiar pieces of ivory.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2218 | Mr. Wolfshiem drank his coffee with a jerk and got to his feet.
@@ -3416,6 +4118,15 @@ Message: |
          |        ^~~~~~~~~ Did you mean `Bolshie`?
 Suggest:
   - Replace with: “Bolshie”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2248 | The idea staggered me. I remembered, of course, that the World’s Series had been
+         |                                                                         ^~~~~~~~~
+    2249 | fixed in 1919, but if I had thought of it at all I would have thought of it as a
+         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3463,6 +4174,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2313 | The officer looked at Daisy while she was speaking, in a way that every young
+    2314 | girl wants to be looked at sometime, and because it seemed romantic to me I have
+         |            ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2319 | That was nineteen-seventeen. By the next year I had a few beaux myself, and I
@@ -3472,6 +4191,14 @@ Suggest:
   - Replace with: “beau”
   - Replace with: “beaus”
   - Replace with: “beaut”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2323 | night to go to New York and say good-by to a soldier who was going overseas. She
+    2324 | was effectually prevented, but she wasn’t on speaking terms with her family for
+         | ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3671,6 +4398,23 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2464 | “She’s not to know about it. Gatsby doesn’t want her to know. You’re just
+         |                                                               ^~~~~~~~~~~~
+    2465 | supposed to invite her to tea.”
+         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2483 | into “hide-and-go-seek” or “sardines-in-the-box” with all the house thrown open
+         |                                                                     ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2484 | to the game. But there wasn’t a sound. Only wind in the trees, which blew the
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2492 | some of the rooms. Let’s go to Coney Island, old sport. In my car.”
@@ -3700,6 +4444,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2548 | been one of the crises of my life. But, because the offer was obviously and
+    2549 | tactlessly for a service to be rendered, I had no choice except to cut him off
+         |                          ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2555 | “You wouldn’t have to do any business with Wolfshiem.” Evidently he thought that
@@ -3716,6 +4468,15 @@ Message: |
          |                             ^~~~~~~~~~ Did you mean `connection`?
 Suggest:
   - Replace with: “connection”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2557 | was wrong. He waited a moment longer, hoping I’d begin a conversation, but I was
+         |                                                                              ^~~~
+    2558 | too absorbed to be responsive, so he went unwillingly home.
+         | ~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3816,6 +4577,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2647 | We went in. To my overwhelming surprise the living-room was deserted.
+         |                                                         ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2663 | For half a minute there wasn’t a sound. Then from the living-room I heard a sort
+    2664 | of choking murmur and part of a laugh, followed by Daisy’s voice on a clear
+         |                                        ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2665 | artificial note:
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     2673 | a strained counterfeit of perfect ease, even of boredom. His head leaned back so
@@ -3856,6 +4633,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2739 | whose massed leaves made a fabric against the rain. Once more it was pouring,
+    2740 | and my irregular lawn, well-shaved by Gatsby’s gardener, abounded in small muddy
+         |                             ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     2743 | steeple, for half an hour. A brewer had built it early in the “period” craze, a
@@ -3866,6 +4651,23 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2746 | with straw. Perhaps their refusal took the heart out of his plan to Found a
          | ~~~~~~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2762 | either end of the couch, looking at each other as if some question had been
+         |                                                                    ^~~~~~~~~
+    2763 | asked, or was in the air, and every vestige of embarrassment was gone. Daisy’s
+         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2763 | asked, or was in the air, and every vestige of embarrassment was gone. Daisy’s
+    2764 | face was smeared with tears, and when I came in she jumped up and began wiping
+         |      ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3926,6 +4728,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2830 | the pale gold odor of kiss-me-at-the-gate. It was strange to reach the marble
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 44 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2834 | And inside, as we wandered through Marie Antoinette music-rooms and Restoration
+    2835 | Salons, I felt that there were guests concealed behind every couch and table,
+         |                                       ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2836 | under orders to be breathlessly silent until we had passed through. As Gatsby
 
 
 
@@ -3996,6 +4807,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2854 | His bedroom was the simplest room of all—except where the dresser was garnished
+         |                                                                   ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2855 | with a toilet set of pure dull gold. Daisy took the brush with delight, and
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2863 | his embarrassment and his unreasoning joy he was consumed with wonder at her
+         |                                              ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2864 | presence. He had been full of the idea so long, dreamed it right through to the
+
+
+
 Lint:    Style (31 priority)
 Message: |
     2872 | “I’ve got a man in England who buys me clothes. He sends over a selection of
@@ -4061,12 +4888,36 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2913 | There was a small picture of Gatsby, also in yachting costume, on the
+    2914 | bureau—Gatsby with his head thrown back defiantly—taken apparently when he was
+         |                             ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     2940 | “I know what we'll do,” said Gatsby, “we'll have Klipspringer play the piano.”
          |                                                  ^~~~~~~~~~~~ Did you mean `Kissinger`?
 Suggest:
   - Replace with: “Kissinger”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2942 | He went out of the room calling “Ewing!” and returned in a few minutes
+    2943 | accompanied by an embarrassed, slightly worn young man, with shell-rimmed
+         | ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2944 | glasses and scanty blond hair. He was now decently clothed in a “sport shirt,”
+         |                                   ^~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    2945 | open at the neck, sneakers, and duck trousers of a nebulous hue.
 
 
 
@@ -4129,12 +4980,36 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    2995 | of emotion. I think that voice held him most, with its fluctuating, feverish
+    2996 | warmth, because it couldn’t be over-dreamed—that voice was a deathless song.
+         |                    ^~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    2999 | know me now at all. I looked once more at them and they looked back at me,
+    3000 | remotely, possessed by intense life. Then I went out of the room and down the
+         |           ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Capitalization (127 priority)
 Message: |
     3003 | ## CHAPTER VI
          | ^~~~~~~~~~~~~ Try to use title case in headings.
 Suggest:
   - Replace with: “## CHAPTER Vi”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3017 | It was a random shot, and yet the reporter’s instinct was right. Gatsby’s
+    3018 | notoriety, spread about by the hundreds who had accepted his hospitality and so
+         |            ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4148,6 +5023,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     3023 | moved secretly up and down the Long Island shore. Just why these inventions were
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 49 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3022 | didn’t live in a house at all, but in a boat that looked like a house and was
+         |                                                                           ^~~~
+    3023 | moved secretly up and down the Long Island shore. Just why these inventions were
+         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4222,6 +5106,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3058 | reality, a promise that the rock of the world was founded securely on a fairy’s
+         |                                               ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3059 | wing.
+
+
+
 Lint:    WordChoice (63 priority)
 Message: |
     3073 | tried to separate him from his money. The none too savory ramifications by which
@@ -4292,6 +5184,13 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3088 | He was employed in a vague personal capacity—while he remained with Cody he was
+         |    ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     3089 | in turn steward, mate, skipper, secretary, and even jailor, for Dan Cody sober
@@ -4327,6 +5226,23 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3104 | dollars. He didn’t get it. He never understood the legal device that was used
+         |                                                                      ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3105 | against him, but what remained of the millions went intact to Ella Kaye. He was
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3105 | against him, but what remained of the millions went intact to Ella Kaye. He was
+         |                                                                             ^~~~
+    3106 | left with his singularly appropriate education; the vague contour of Jay Gatsby
+         | ~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     3106 | left with his singularly appropriate education; the vague contour of Jay Gatsby
@@ -4356,6 +5272,13 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     3119 | finally I went over to his house one Sunday afternoon. I hadn’t been there two
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 44 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3134 | He was profoundly affected by the fact that Tom was there. But he would be
+         |    ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4401,6 +5324,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3147 | Moved by an irresistible impulse, Gatsby turned to Tom, who had accepted the
+         | ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     3180 | “Be ver’ nice,” said Mr. Sloane, without gratitude. “Well—think ought to be
@@ -4409,6 +5339,13 @@ Suggest:
   - Replace with: “var”
   - Replace with: “veer”
   - Replace with: “verb”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3232 | Tom was evidently perturbed at Daisy’s running around alone, for on the
+         |     ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4467,10 +5404,26 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3292 | Daisy and Gatsby danced. I remember being surprised by his graceful,
+         |                                     ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3293 | conservative fox-trot—I had never seen him dance before. Then they sauntered
+
+
+
 Lint:    Formatting (255 priority)
 Message: |
     3296 | explained, ‘‘or any act of God.”
          |                                ^ This quote has no termination.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3307 | We were at a particularly tipsy table. That was my fault—Gatsby had been called
+         |                                                                 ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3308 | to the phone, and I’d enjoyed these same people only two weeks before. But what
 
 
 
@@ -4518,6 +5471,21 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3350 | emotion. She was appalled by West Egg, this unprecedented “place” that Broadway
+         |              ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3351 | had begotten upon a Long Island fishing village—appalled by its raw vigor that
+         |                                                 ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3352 | chafed under the old euphemisms and by the too obtrusive fate that herded its
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     3389 | Daisy began to sing with the music in a husky, rythmic whisper, bringing out a
@@ -4526,6 +5494,21 @@ Message: |
 Suggest:
   - Replace with: “rhythmic”
   - Replace with: “mythic”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3395 | “Lots of people come who haven’t been invited,” she said suddenly. “That girl
+         |                          ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3395 | “Lots of people come who haven’t been invited,” she said suddenly. “That girl
+    3396 | hadn’t been invited. They simply force their way in and he’s too polite to
+         | ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4539,6 +5522,15 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3412 | romantic possibilities totally absent from her world. What was it up there in
+         |                                                            ^~~~~~~~~~~~~~~~~~~
+    3413 | the song that seemed to be calling her back inside? What would happen now in the
+         | ~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     3414 | dim, incalculable hours? Perhaps some unbelievable guest would arrive, a person
@@ -4549,6 +5541,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     3417 | out those five years of unwavering devotion.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3414 | dim, incalculable hours? Perhaps some unbelievable guest would arrive, a person
+    3415 | infinitely rare and to be marvelled at, some authentically radiant young girl
+         |                     ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4575,6 +5575,39 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3421 | and exalted, from the black beach, until the lights were extinguished in the
+         |                                                     ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3422 | guest-rooms overhead. When he came down the steps at last the tanned skin was
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3422 | guest-rooms overhead. When he came down the steps at last the tanned skin was
+         |                                                                           ^~~~
+    3423 | drawn unusually tight on his face, and his eyes were bright and tired.
+         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3441 | loved you.” After she had obliterated four years with that sentence they could
+    3442 | decide upon the more practical measures to be taken. One of them was that, after
+         |                                         ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3443 | she was free, they were to go back to Louisville and be married from her
+         |                                                      ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3444 | house—just as if it were five years ago.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     3474 | Out of the corner of his eye Gatsby saw that the blocks of the sidewalks really
@@ -4594,6 +5627,14 @@ Message: |
          |     ^~~~~~~~~~ Did you mean the closed compound noun “heartbeat”?
 Suggest:
   - Replace with: “heartbeat”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3486 | Through all he said, even through his appalling sentimentality, I was reminded
+         |                                                                   ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3487 | of something—an elusive rhythm, a fragment of lost words, that I had heard
 
 
 
@@ -4656,6 +5697,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     3521 | telephone. The grocery boy reported that the kitchen looked like a pigsty, and
          | ~~~~~~~~~~ This sentence is 44 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3519 | ago and replaced them with half a dozen others, who never went into West Egg
+    3520 | Village to be bribed by the tradesmen, but ordered moderate supplies over the
+         |         ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4815,6 +5864,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3643 | The child, relinquished by the nurse, rushed across the room and rooted shyly
+         |            ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     3646 | “The bles-sed pre-cious! Did mother get powder on your old yellowy hair? Stand
@@ -4845,6 +5901,14 @@ Suggest:
   - Replace with: “Palmy”
   - Replace with: “Pommy”
   - Replace with: “Pam's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3676 | With a reluctant backward glance the well-disciplined child held to her nurse’s
+    3677 | hand and was pulled out the door, just as Tom came back, preceding four gin
+         |          ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4913,6 +5977,14 @@ Message: |
          |           ^~~~~~~~~ This looks like a prefix that can be joined with the rest of the word.
 Suggest:
   - Replace with: “upstairs”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3798 | Tom came out of the house wrapping a quart bottle in a towel, followed by Daisy
+         |                                                               ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3799 | and Jordan wearing small tight hats of metallic cloth and carrying light capes
 
 
 
@@ -4991,6 +6063,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3879 | “But there’s a garage right here,” objected Jordan. “I don’t want to get stalled
+         |                                                                   ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3880 | in this baking heat.”
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     3923 | The coupé flashed by us with a flurry of dust and the flash of a waving hand.
@@ -5012,6 +6092,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     3940 | profound as the difference between the sick and the well. Wilson was so sick
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 46 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3947 | afternoon, and now I turned my head as though I had been warned of something
+         |                                                 ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3948 | behind. Over the ashheaps the giant eyes of Doctor T. J. Eckleburg kept their
 
 
 
@@ -5069,6 +6157,23 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    3952 | In one of the windows over the garage the curtains had been moved aside a
+         |                                                    ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3953 | little, and Myrtle Wilson was peering down at the car. So engrossed was she that
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3953 | little, and Myrtle Wilson was peering down at the car. So engrossed was she that
+    3954 | she had no consciousness of being observed, and one emotion after another crept
+         |                             ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3955 | into her face like objects into a slowly developing picture. Her expression was
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     3955 | into her face like objects into a slowly developing picture. Her expression was
@@ -5081,6 +6186,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     3959 | Baker, whom she took to be his wife.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 52 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    3958 | that her eyes, wide with jealous terror, were fixed not on Tom, but on Jordan
+         |                                          ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    3959 | Baker, whom she took to be his wife.
 
 
 
@@ -5240,6 +6353,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4069 | The music had died down as the ceremony began and now a long cheer floated in at
+    4070 | the window, followed by intermittent cries of “Yea—ea—ea!” and finally by a
+         |             ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (31 priority)
 Message: |
     4070 | the window, followed by intermittent cries of “Yea—ea—ea!” and finally by a
@@ -5311,6 +6432,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4083 | “Well, he said he knew you. He said he was raised in Louisville. Asa Bird
+         |                                        ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     4083 | “Well, he said he knew you. He said he was raised in Louisville. Asa Bird
@@ -5345,6 +6473,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4112 | silence was unbroken by his “thank you” and the soft closing of the door. This
+    4113 | tremendous detail was to be cleared up at last.
+         |                   ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Formatting (255 priority)
 Message: |
     4134 | won’t seem so stupid to yourself. . . . Look at the mint!”
@@ -5359,6 +6495,14 @@ Message: |
     4150 | life and family institutions, and next they’ll throw everything overboard and
 Suggest:
   - Insert “,”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4161 | Angry as I was, as we all were, I was tempted to laugh whenever he opened his
+         |                                   ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    4162 | mouth. The transition from libertine to prig was so complete.
 
 
 
@@ -5377,6 +6521,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     4187 | conceal and it would be a privilege to partake vicariously of their emotions.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4208 | because I didn’t know Daisy then—and I’ll be damned if I see how you got within
+         |                                           ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    4209 | a mile of her unless you brought the groceries to the back door. But all the
 
 
 
@@ -5428,6 +6580,28 @@ Message: |
     4322 | mouth.”
 Suggest:
   - Replace with: “Bolshie”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4332 | expression. He looked—and this is said in all contempt for the babbled slander
+         |                                ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4333 | of his garden—as if he had “killed a man.” For a moment the set of his face
+    4334 | could be described in just that fantastic way.
+         | ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4337 | defending his name against accusations that had not been made. But with every
+         |                                             ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -5577,6 +6751,15 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4414 | back later. But he didn’t. He supposed he forgot to, that’s all. When he came
+    4415 | outside again, a little after seven, he was reminded of the conversation because
+         |                                         ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    4416 | he heard Mrs. Wilson’s voice, loud and scolding, down-stairs in the garage.
+
+
+
 Lint:    Style (31 priority)
 Message: |
     4416 | he heard Mrs. Wilson’s voice, loud and scolding, down-stairs in the garage.
@@ -5660,6 +6843,22 @@ Suggest:
   - Replace with: “coup”
   - Replace with: “coupe”
   - Replace with: “coups”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4457 | He reached up on tiptoes and peered over a circle of heads into the garage,
+    4458 | which was lit only by a yellow light in a swinging metal basket overhead. Then
+         |       ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4463 | minute before I could see anything at all. Then new arrivals deranged the line,
+    4464 | and Jordan and I were pushed suddenly inside.
+         |                  ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6093,6 +7292,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4579 | through the still gathering crowd, passing a hurried doctor, case in hand, who
+    4580 | had been sent for in wild hope half an hour ago.
+         | ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     4582 | Tom drove slowly until we were beyond the bend—then his foot came down hard, and
@@ -6115,6 +7322,21 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4619 | I’d be damned if I’d go in; I’d had enough of all of them for one day, and
+         | ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4622 | house. I sat down for a few minutes with my head in my hands, until I heard the
+    4623 | phone taken up inside and the butler’s voice calling a taxi. Then I walked
+         |       ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     4635 | the house in a moment; I wouldn’t have been surprised to see sinister faces, the
@@ -6127,10 +7349,24 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4644 | “Was she killed?”
+         |  ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Formatting (255 priority)
 Message: |
     4679 | “Don’t tell me, old sport.” He winced. “Anyhow—Daisy stepped on it. I tried to
          |                                        ^ This quote has no termination.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4707 | the pantry window. The blind was drawn, but I found a rift at the sill.
+         |                              ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6145,6 +7381,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4753 | There was an inexplicable amount of dust everywhere, and the rooms were musty,
+    4754 | as though they hadn’t been aired for many days. I found the humidor on an
+         |                ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
     4768 | It was this night that he told me the strange story of his youth with Dan
@@ -6153,6 +7397,13 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     4770 | hard malice, and the long secret extravaganza was played out. I think that he
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4770 | hard malice, and the long secret extravaganza was played out. I think that he
+         |                                               ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6193,6 +7444,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     4800 | of her. As a matter of fact, he had no such facilities—he had no comfortable
          | ~~~~~~~ This sentence is 47 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4801 | family standing behind him, and he was liable at the whim of an impersonal
+    4802 | government to be blown anywhere about the world.
+         |            ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6243,6 +7502,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4844 | outside, and she wanted to see him and feel his presence beside her and be
+         |                                                                         ^~~
+    4845 | reassured that she was doing the right thing after all.
+         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     4850 | saxophones wailed the hopeless comment of the “Beale Street Blues” while a
@@ -6252,6 +7520,14 @@ Suggest:
   - Replace with: “Bale”
   - Replace with: “Beagle”
   - Replace with: “Belle”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4853 | sweet fever, while fresh faces drifted here and there like rose petals blown by
+         |                                                                        ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    4854 | the sad horns around the floor.
 
 
 
@@ -6268,6 +7544,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    4860 | something within her was crying for a decision. She wanted her life shaped now,
+    4861 | immediately—and the decision must be made by some force—of love, of money, of
+         |                              ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    4862 | unquestionable practicality—that was close at hand.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     4875 | “I don’t think she ever loved him.” Gatsby turned around from a window and
@@ -6275,6 +7560,22 @@ Message: |
          |              ^~~~~~~~~~~~~ Did you mean `challenging`?
 Suggest:
   - Replace with: “challenging”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4890 | What could you make of that, except to suspect some intensity in his conception
+    4891 | of the affair that couldn’t be measured?
+         |                    ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    4899 | the city itself, even though she was gone from it, was pervaded with a
+         |                                                    ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    4900 | melancholy beauty.
 
 
 
@@ -6306,6 +7607,14 @@ Message: |
     4981 | Southampton this afternoon.”
 Suggest:
   - Replace with: “Homestead”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5010 | times; finally an exasperated central told me the wire was being kept open for
+         |                                                        ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5011 | long distance from Detroit. Taking out my time-table, I drew a small circle
 
 
 
@@ -6341,6 +7650,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     5020 | achievement was forgotten. Now I want to go back a little and tell what happened
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 56 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5019 | less real even to him and he could tell it no longer, and Myrtle Wilson’s tragic
+    5020 | achievement was forgotten. Now I want to go back a little and tell what happened
+         |             ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6474,6 +7791,15 @@ Message: |
          |                     ^~~~~~~~~~ Did you mean the closed compound noun “workbench”?
 Suggest:
   - Replace with: “workbench”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5059 | the car that hadn’t stopped a few hours before. He didn’t like to go into the
+    5060 | garage, because the work bench was stained where the body had been lying, so he
+         |                                ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5061 | moved uncomfortably around the office—he knew every object in it before
 
 
 
@@ -6662,6 +7988,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    5171 | His movements—he was on foot all the time—were afterward traced to Port
+         |                                           ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5172 | Roosevelt and then to Gad’s Hill, where he bought a sandwich that he didn’t eat,
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     5171 | His movements—he was on foot all the time—were afterward traced to Port
@@ -6705,6 +8039,22 @@ Message: |
          |                             ^~~~~~~~ Did you mean the closed compound `someone`?
 Suggest:
   - Replace with: “someone”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5185 | At two o’clock Gatsby put on his bathing-suit and left word with the butler that
+    5186 | if any one phoned word was to be brought to him at the pool. He stopped at the
+         |                        ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5188 | and the chauffeur helped him pump it up. Then he gave instructions that the open
+    5189 | car wasn’t to be taken out under any circumstances—and this was strange, because
+         |     ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6780,6 +8130,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    5240 | suspicions of his wife I thought the whole tale would shortly be served up in
+         |                                                 ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5241 | racy pasquinade—but Catherine, who might have said anything, didn’t say a word.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     5240 | suspicions of his wife I thought the whole tale would shortly be served up in
@@ -6800,6 +8158,31 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     5245 | husband, that her sister had been into no mischief whatever. She convinced
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 50 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5247 | more than she could endure. So Wilson was reduced to a man “deranged by grief”
+         |                                       ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5248 | in order that the case might remain in its simplest form. And it rested there.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5247 | more than she could endure. So Wilson was reduced to a man “deranged by grief”
+         |                                                             ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5248 | in order that the case might remain in its simplest form. And it rested there.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5252 | to West Egg village, every surmise about him, and every practical question, was
+         |                                                                             ^~~~
+    5253 | referred to me. At first I was surprised and confused; then, as he lay in his
+         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -6901,6 +8284,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    5315 | did should make us all think. I cannot come down now as I am tied up in some
+    5316 | very important business and cannot get mixed up in this thing now. If there is
+         |                                    ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5318 | where I am when I hear about a thing like this and am completely knocked down
+         |                                                    ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5319 | and out.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     5322 | >
@@ -6960,6 +8359,14 @@ Message: |
 Suggest:
   - Replace with: “bayou”
   - Replace with: “you”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5349 | There was a long silence on the other end of the wire, followed by an
+         |                                                        ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5350 | exclamation . . . then a quick squawk as the connection was broken.
 
 
 
@@ -7061,12 +8468,28 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    5389 | of the hall and the great rooms opening out from it into other rooms, his grief
+    5390 | began to be mixed with an awed pride. I helped him to a bedroom up-stairs; while
+         |       ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (127 priority)
 Message: |
     5390 | began to be mixed with an awed pride. I helped him to a bedroom up-stairs; while
          |                                                                 ^~~~~~~~~ This looks like a prefix that can be joined with the rest of the word.
 Suggest:
   - Replace with: “upstairs”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5391 | he took off his coat and vest I told him that all arrangements had been deferred
+         |                                                                ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5392 | until he came.
 
 
 
@@ -7158,6 +8581,14 @@ Message: |
          |                                                               ^~~~~~~~~ Did you mean `Bolshie`?
 Suggest:
   - Replace with: “Bolshie”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5465 | couldn’t seem to reach him any other way. The door that I pushed open, on the
+    5466 | advice of an elevator boy, was marked “The Swastika Holding Company,” and at
+         |                            ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -7274,6 +8705,27 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    5540 | “There’s nothing to get mixed up in. It’s all over now.”
+         |                  ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5542 | “When a man gets killed I never like to get mixed up in it in any way. I keep
+         |             ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5542 | “When a man gets killed I never like to get mixed up in it in any way. I keep
+         |                                      ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     5552 | For a moment I thought he was going to suggest a “gonnegtion,” but he only
@@ -7343,6 +8795,14 @@ Suggest:
   - Replace with: “Hopping”
   - Replace with: “Haling”
   - Replace with: “Haloing”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5586 | He opened it at the back cover and turned it around for me to see. On the last
+    5587 | fly-leaf was printed the word SCHEDULE, and the date September 12, 1906. And
+         |          ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -7579,6 +9039,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+    5680 | bells in the frosty dark and the shadows of holly wreaths thrown by lighted
+         |                                                           ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5681 | windows on the snow. I am part of that, a little solemn with the feel of those
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
     5682 | long winters, a little complacent from growing up in the Carraway house in a
@@ -7588,6 +9056,14 @@ Suggest:
   - Replace with: “Caraway”
   - Replace with: “Caraways”
   - Replace with: “Castaway”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5682 | long winters, a little complacent from growing up in the Carraway house in a
+    5683 | city where dwellings are still called through decades by a family’s name. I see
+         |                      ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -7666,6 +9142,22 @@ Message: |
          |                       ^~~~~~~~~~ Did you mean `lusterless`?
 Suggest:
   - Replace with: “lusterless”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5700 | After Gatsby’s death the East was haunted for me like that, distorted beyond my
+         |                               ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+    5701 | eyes’ power of correction. So when the blue smoke of brittle leaves was in the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5705 | There was one thing to be done before I left, an awkward, unpleasant thing that
+    5706 | perhaps had better have been let alone. But I wanted to leave things in order
+         |                    ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -7802,6 +9294,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     5800 | his drive. One night I did hear a material car there, and saw its lights stop at
          | ~~~~~~~~~~ This sentence is 45 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+    5805 | over and looked at that huge incoherent failure of a house once more. On the
+    5806 | white steps an obscene word, scrawled by some boy with a piece of brick, stood
+         |                              ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 

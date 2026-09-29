@@ -42,6 +42,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      11 | definition and its context. A simplified form of this is commonly taught to
+         |                                                       ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      12 | school-age children, in the identification of words as nouns, verbs, adjectives,
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
       18 | two distinctive groups: rule-based and stochastic. E. Brill's tagger, one of the
@@ -65,6 +73,23 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      27 | percentage of word-forms are ambiguous. For example, even "dogs", which is
+         |                                                                         ^~~
+      28 | usually thought of as just a plural noun, can also be a verb:
+         | ~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      32 | Correct grammatical tagging will reflect that "dogs" is here used as a verb, not
+         |                                                      ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      33 | as the more common plural noun. Grammatical context is one way to determine
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       33 | as the more common plural noun. Grammatical context is one way to determine
@@ -77,6 +102,13 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       37 | watertight door) securely").
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 49 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      34 | this; semantic analysis can also be used to infer that "sailor" and "hatch"
+         |                         ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -95,6 +127,29 @@ Message: |
          |                                                     ^~~~~~~~~~~~~~ This looks like a prefix that can be joined with the rest of the word.
 Suggest:
   - Replace with: “subcategories”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      44 | the plural, possessive, and singular forms can be distinguished. In many
+         |                                            ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      44 | the plural, possessive, and singular forms can be distinguished. In many
+      45 | languages words are also marked for their "case" (role as subject, object,
+         |                 ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      46 | etc.), grammatical gender, and so on; while verbs are marked for tense, aspect,
+         |                                                   ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      47 | and other things. In some tagging systems, different inflections of the same
 
 
 
@@ -178,6 +233,15 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      58 | morphosyntactic descriptor in the case of morphologically rich languages is
+         |                                                                          ^~~
+      59 | commonly expressed using very short mnemonics, such as Ncmsan for Category=Noun,
+         | ~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
       59 | commonly expressed using very short mnemonics, such as Ncmsan for Category=Noun,
@@ -198,6 +262,14 @@ Suggest:
   - Replace with: “Tie back”
   - Replace with: “Tieback”
   - Replace with: “Traceback”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      70 | tags used varies greatly with language. Tags usually are designed to include
+         |                                                      ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      71 | overt morphological distinctions, although this leads to inconsistencies such as
 
 
 
@@ -233,6 +305,13 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      85 | Research on part-of-speech tagging has been closely tied to corpus linguistics.
+         |                                    ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
       86 | The first major corpus of English for computer analysis was the Brown Corpus
@@ -256,6 +335,15 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      97 | cannot. The program got about 70% correct. Its results were repeatedly reviewed
+         |                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+      98 | and corrected by hand, and later users sent in errata so that by the late 70s
+         | ~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
       98 | and corrected by hand, and later users sent in errata so that by the late 70s
@@ -265,6 +353,20 @@ Suggest:
   - Replace with: “so”
   - Replace with: “as”
   - Replace with: “is”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     102 | This corpus has been used for innumerable studies of word-frequency and of
+         |             ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     104 | other languages. Statistics derived by analyzing it formed the basis for most
+         |                             ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -291,6 +393,23 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     105 | later part-of-speech tagging systems, such as CLAWS and VOLSUNGA. However, by
+     106 | this time (2005) it has been superseded by larger corpora such as the 100
+         |                     ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     107 | million word British National Corpus, even though larger corpora are rarely so
+         |                                                                  ^~~~~~~~~~~~~~
+     108 | thoroughly curated.
+         | ~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      110 | For some time, part-of-speech tagging was considered an inseparable part of
@@ -301,6 +420,30 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      113 | pragmatics of the context. This is extremely expensive, especially because
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     110 | For some time, part-of-speech tagging was considered an inseparable part of
+         |                                       ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     111 | natural language processing, because there are certain cases where the correct
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     111 | natural language processing, because there are certain cases where the correct
+     112 | part of speech cannot be decided without understanding the semantics or even the
+         |                       ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     114 | analyzing the higher levels is much harder when multiple part-of-speech
+     115 | possibilities must be considered for each word.
+         |               ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -336,6 +479,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     126 | a verb or a modal. The same method can, of course, be used to benefit from
+         |                                                    ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     127 | knowledge about the following words.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      129 | More advanced ("higher-order") HMMs learn the probabilities not only of pairs
@@ -344,6 +495,21 @@ Suggest:
   - Replace with: “Hams”
   - Replace with: “Hems”
   - Replace with: “Hums”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     130 | but triples or even larger sequences. So, for example, if you've just seen a
+     131 | noun followed by a verb, the next item may be very likely a preposition,
+         |      ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     137 | choice in turn. The combination with the highest probability is then chosen. The
+         |                                                              ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -407,6 +573,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     153 | HMMs underlie the functioning of stochastic taggers and are used in various
+         |                                                         ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     154 | algorithms one of the most widely used being the bi-directional inference
+
+
+
 Lint:    Spelling (127 priority)
 Message: |
      154 | algorithms one of the most widely used being the bi-directional inference
@@ -457,6 +631,14 @@ Suggest:
   - Replace with: “Vite's”
   - Replace with: “Viper's”
   - Replace with: “Voter's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     161 | methods were similar to the Viterbi algorithm known for some time in other
+         |                                               ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     162 | fields. DeRose used a table of pairs, while Church used a table of triples and a
 
 
 
@@ -520,6 +702,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     174 | DeRose's and Church's methods did fail for some of the known cases where
+     175 | semantics is required, but those proved negligibly rare. This convinced many in
+         |           ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      175 | semantics is required, but those proved negligibly rare. This convinced many in
@@ -532,6 +722,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      179 | separate other pieces as well. Markov Models became the standard method for the
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 45 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     175 | semantics is required, but those proved negligibly rare. This convinced many in
+     176 | the field that part-of-speech tagging could usefully be separated from the other
+         |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     177 | levels of processing; this, in turn, simplified the theory and practice of
 
 
 
@@ -551,6 +750,14 @@ Message: |
      185 | learn tag probabilities. It is, however, also possible to bootstrap using
 Suggest:
   - Replace with: “preexisting”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     195 | These two categories can be further subdivided into rule-based, stochastic, and
+         |                      ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     196 | neural approaches.
 
 
 
@@ -587,6 +794,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     202 | known as the forward-backward algorithm). Hidden Markov model and visible Markov
+     203 | model taggers can both be implemented using the Viterbi algorithm. The
+         |                        ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      203 | model taggers can both be implemented using the Viterbi algorithm. The
@@ -595,6 +810,14 @@ Suggest:
   - Replace with: “Vite's”
   - Replace with: “Viper's”
   - Replace with: “Voter's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     207 | Many machine learning methods have also been applied to the problem of POS
+         |                               ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     208 | tagging. Methods such as SVM, maximum entropy classifier, perceptron, and
 
 
 
@@ -609,6 +832,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     208 | tagging. Methods such as SVM, maximum entropy classifier, perceptron, and
+     209 | nearest-neighbor have all been tried, and most can achieve accuracy above
+         |                           ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     212 | A direct comparison of several methods is reported (with references) at the ACL
+         |                                        ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     213 | Wiki. This comparison uses the Penn tag set on some of the Penn Treebank data,
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      213 | Wiki. This comparison uses the Penn tag set on some of the Penn Treebank data,
@@ -618,6 +857,39 @@ Suggest:
   - Replace with: “Tie back”
   - Replace with: “Tieback”
   - Replace with: “Traceback”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     214 | so the results are directly comparable. However, many significant taggers are
+         |                                                                           ^~~~
+     215 | not included (perhaps because of the labor involved in reconfiguring them for
+         | ~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     216 | this particular dataset). Thus, it should not be assumed that the results
+         |                                    ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     217 | reported here are the best that can be achieved with a given approach; nor even
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     216 | this particular dataset). Thus, it should not be assumed that the results
+     217 | reported here are the best that can be achieved with a given approach; nor even
+         |                                 ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     217 | reported here are the best that can be achieved with a given approach; nor even
+     218 | the best that have been achieved with a given approach.
+         |               ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 

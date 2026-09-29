@@ -56,6 +56,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      15 | All legislative Powers herein granted shall be vested in a
+         |                                       ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      16 | Congress of the United States, which shall consist of a Senate and House of
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       17 | Representatives. Congress shall make no law respecting an establishment of
@@ -103,6 +111,22 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      38 | The House of Representatives shall be composed of Members
+         |                              ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      39 | chosen every second Year by the People of the several States, and the Electors
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      38 | The House of Representatives shall be composed of Members
+      39 | chosen every second Year by the People of the several States, and the Electors
+         | ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       43 | No Person shall be a Representative who shall not have attained to the Age of
@@ -113,6 +137,22 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       46 | chosen.
          | ~~~~~~~ This sentence is 46 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      45 | shall not, when elected, be an Inhabitant of that State in which he shall be
+         |                                                                     ^~~~~~~~~
+      46 | chosen.
+         | ~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      48 | Representatives shall be apportioned among the several States according to
+         |                 ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -150,6 +190,31 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      52 | Representatives in Congress, the Executive and Judicial officers of a State, or
+      53 | the members of the Legislature thereof, is denied to any of the male
+         |                                         ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      54 | inhabitants of such State, being twenty-one years of age, and citizens of the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      56 | or other crime, the basis of representation therein shall be reduced in the
+         |                                                     ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      57 | proportion which the number of such male citizens shall bear to the whole
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      58 | number of male citizens twenty-one years of age in such State. The actual
+      59 | Enumeration shall be made within three Years after the first Meeting of the
+         |             ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       61 | in such Manner as they shall by Law direct. The Number of Representatives shall
@@ -166,6 +231,22 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       67 | Carolina five, South Carolina five, and Georgia three.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 72 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      63 | one Representative; and until such enumeration shall be made, the State of New
+         |                                                ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      64 | Hampshire shall be entitled to chuse three, Massachusetts eight, Rhode-Island
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      63 | one Representative; and until such enumeration shall be made, the State of New
+      64 | Hampshire shall be entitled to chuse three, Massachusetts eight, Rhode-Island
+         |           ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -192,6 +273,38 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      79 | The Senate of the United States shall be composed of two
+         |                                 ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      80 | Senators from each State, elected by the people thereof, for six years; and
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      79 | The Senate of the United States shall be composed of two
+      80 | Senators from each State, elected by the people thereof, for six years; and
+         |                           ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      85 | Immediately after they shall be assembled in Consequence of the first Election,
+         |                        ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      86 | they shall be divided as equally as may be into three Classes. The Seats of the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      85 | Immediately after they shall be assembled in Consequence of the first Election,
+      86 | they shall be divided as equally as may be into three Classes. The Seats of the
+         |      ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       86 | they shall be divided as equally as may be into three Classes. The Seats of the
@@ -215,6 +328,24 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+      86 | they shall be divided as equally as may be into three Classes. The Seats of the
+      87 | Senators of the first Class shall be vacated at the Expiration of the second
+         |                             ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+      88 | Year, of the second Class at the Expiration of the fourth Year, and of the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      89 | third Class at the Expiration of the sixth Year, so that one third may be
+         |                                                                    ^~~~~~~
+      90 | chosen every second Year; and when vacancies happen in the representation of
+         | ~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
       96 | No Person shall be a Senator who shall not have attained to the Age of thirty
@@ -223,6 +354,21 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       98 | when elected, be an Inhabitant of that State for which he shall be chosen.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 45 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+      98 | when elected, be an Inhabitant of that State for which he shall be chosen.
+         |                                                           ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     100 | The Vice President of the United States shall be President of the Senate, but
+     101 | shall have no Vote, unless they be equally divided.
+         |                                 ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -266,6 +412,23 @@ Message: |
      104 | in the Absence of the Vice President, or when he shall exercise the Office of
 Suggest:
   - Replace with: “temp ore”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     108 | that Purpose, they shall be on Oath or Affirmation. When the President of the
+     109 | United States is tried, the Chief Justice shall preside: And no Person shall be
+         |               ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     109 | United States is tried, the Chief Justice shall preside: And no Person shall be
+         |                                                                        ^~~~~~~~~
+     110 | convicted without the Concurrence of two thirds of the Members present.
+         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -326,6 +489,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     122 | The Times, Places and Manner of holding Elections for Senators
+     123 | and Representatives, shall be prescribed in each State by the Legislature
+         |                      ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      124 | thereof; but the Congress may at any time by Law make or alter such
@@ -363,6 +534,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     135 | Quorum to do Business; but a smaller Number may adjourn from day to day, and
+     136 | may be authorized to compel the Attendance of absent Members, in such Manner,
+         | ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      139 | Each House may determine the Rules of its Proceedings, punish its Members for
@@ -384,6 +563,21 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      145 | shall, at the Desire of one fifth of those Present, be entered on the Journal.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 56 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     145 | shall, at the Desire of one fifth of those Present, be entered on the Journal.
+         |                                                     ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     153 | The Senators and Representatives shall receive a Compensation
+     154 | for their Services, to be ascertained by Law, and paid out of the Treasury of
+         |                     ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -412,6 +606,22 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     155 | the United States. They shall in all Cases, except Treason, Felony and Breach
+     156 | of the Peace, be privileged from Arrest during their Attendance at the Session
+         |               ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     158 | for any Speech or Debate in either House, they shall not be questioned in any
+         |                                                ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     159 | other Place.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      161 | No Senator or Representative shall, during the Time for which he was elected,
@@ -424,6 +634,30 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      165 | States, shall be a Member of either House during his Continuance in Office. No
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 64 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     161 | No Senator or Representative shall, during the Time for which he was elected,
+         |                                                                  ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     162 | be appointed to any civil Office under the Authority of the United States,
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     161 | No Senator or Representative shall, during the Time for which he was elected,
+     162 | be appointed to any civil Office under the Authority of the United States,
+         | ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     162 | be appointed to any civil Office under the Authority of the United States,
+     163 | which shall have been created, or the Emoluments whereof shall have been
+         |       ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -465,6 +699,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     177 | Every Bill which shall have passed the House of Representatives and the Senate,
+     178 | shall, before it become a Law, be presented to the President of the United
+         |                                ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     179 | States; If he approve he shall sign it, but if not he shall return it, with his
+
+
+
 Lint:    Capitalization (31 priority)
 Message: |
      178 | shall, before it become a Law, be presented to the President of the United
@@ -500,6 +743,39 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     182 | such Reconsideration two thirds of that House shall agree to pass the Bill, it
+     183 | shall be sent, together with the Objections, to the other House, by which it
+         | ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     183 | shall be sent, together with the Objections, to the other House, by which it
+     184 | shall likewise be reconsidered, and if approved by two thirds of that House, it
+         | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     185 | shall become a Law. But in all such Cases the Votes of both Houses shall be
+         |                                                                    ^~~~~~~~~
+     186 | determined by yeas and Nays, and the Names of the Persons voting for and
+         | ~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     186 | determined by yeas and Nays, and the Names of the Persons voting for and
+     187 | against the Bill shall be entered on the Journal of each House respectively. If
+         |                  ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      187 | against the Bill shall be entered on the Journal of each House respectively. If
@@ -512,6 +788,23 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      191 | prevent its Return, in which Case it shall not be a Law.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 56 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     187 | against the Bill shall be entered on the Journal of each House respectively. If
+     188 | any Bill shall not be returned by the President within ten Days (Sundays
+         |          ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     188 | any Bill shall not be returned by the President within ten Days (Sundays
+     189 | excepted) after it shall have been presented to him, the Same shall be a Law,
+         |                    ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     190 | in like Manner as if he had signed it, unless the Congress by their Adjournment
 
 
 
@@ -529,6 +822,30 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      198 | to the Rules and Limitations prescribed in the Case of a Bill.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 78 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     194 | House of Representatives may be necessary (except on a question of Adjournment)
+     195 | shall be presented to the President of the United States; and before the Same
+         | ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     195 | shall be presented to the President of the United States; and before the Same
+     196 | shall take Effect, shall be approved by him, or being disapproved by him, shall
+         |                    ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     196 | shall take Effect, shall be approved by him, or being disapproved by him, shall
+         |                                                 ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     197 | be repassed by two thirds of the Senate and House of Representatives, according
 
 
 
@@ -636,6 +953,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     245 | 15. To provide for organizing, arming, and disciplining, the Militia, and for
+     246 | governing such Part of them as may be employed in the Service of the United
+         |                                ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     247 | States, reserving to the States respectively, the Appointment of the Officers,
+
+
+
 Lint:    Capitalization (31 priority)
 Message: |
      246 | governing such Part of them as may be employed in the Service of the United
@@ -644,6 +970,14 @@ Message: |
          | ~~~~~~ When referring to national or international organizations, make sure to treat them as a proper noun.
 Suggest:
   - Replace with: “United States”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     248 | and the Authority of training the Militia according to the discipline
+     249 | prescribed by Congress;
+         | ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -686,6 +1020,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     254 | States, and to exercise like Authority over all Places purchased by the Consent
+         |                                                        ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     255 | of the Legislature of the State in which the Same shall be, for the Erection of
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      265 | The Migration or Importation of such Persons as any of the
@@ -701,6 +1043,22 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     266 | States now existing shall think proper to admit, shall not be prohibited by the
+         |                                                  ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     267 | Congress prior to the Year one thousand eight hundred and eight, but a Tax or
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     267 | Congress prior to the Year one thousand eight hundred and eight, but a Tax or
+     268 | duty may be imposed on such Importation, not exceeding ten dollars for each
+         |      ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      271 | The Privilege of the Writ of Habeas Corpus shall not be suspended, unless when
@@ -709,6 +1067,14 @@ Suggest:
   - Replace with: “Haber's”
   - Replace with: “Hale's”
   - Replace with: “Hebe's”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     271 | The Privilege of the Writ of Habeas Corpus shall not be suspended, unless when
+         |                                            ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     272 | in Cases of Rebellion or Invasion the public Safety may require it.
 
 
 
@@ -723,6 +1089,35 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     274 | No Bill of Attainder or ex post facto Law shall be passed.
+         |                                           ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     276 | No Capitation, or other direct, Tax shall be laid, unless in Proportion to the
+         |                                     ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     277 | Census or Enumeration herein before directed to be taken. Congress shall have
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     277 | Census or Enumeration herein before directed to be taken. Congress shall have
+         |                                              ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     282 | No Tax or Duty shall be laid on Articles exported from any State.
+         |                ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      284 | No Preference shall be given by any Regulation of Commerce or Revenue to the
@@ -731,6 +1126,44 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      286 | one State, be obliged to enter, clear, or pay Duties in another.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 41 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     284 | No Preference shall be given by any Regulation of Commerce or Revenue to the
+         |               ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     285 | Ports of one State over those of another: nor shall Vessels bound to, or from,
+     286 | one State, be obliged to enter, clear, or pay Duties in another.
+         |            ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     288 | No Money shall be drawn from the Treasury, but in Consequence of Appropriations
+         |          ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     288 | No Money shall be drawn from the Treasury, but in Consequence of Appropriations
+     289 | made by Law; and a regular Statement and Account of the Receipts and
+         | ^~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     289 | made by Law; and a regular Statement and Account of the Receipts and
+     290 | Expenditures of all public Money shall be published from time to time.
+         |                                  ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -747,6 +1180,13 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     292 | No Title of Nobility shall be granted by the United States: And no Person
+         |                      ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      297 | The right of citizens of the United States to vote in any primary or other
@@ -759,6 +1199,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      301 | tax or other tax.
          | ~~~~~~~~~~~~~~~~~ This sentence is 60 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     299 | President, or for Senator or Representative in Congress, shall not be denied or
+         |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+     300 | abridged by the United States or any State by reason of failure to pay any poll
+         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -816,6 +1265,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     313 | it's inspection Laws: and the net Produce of all Duties and Imposts, laid by
+         |                                                                      ^~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     314 | any State on Imports or Exports, shall be for the Use of the Treasury of the
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      315 | United States; and all such Laws shall be subject to the Revision and Controul
@@ -841,6 +1298,21 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     327 | The executive Power shall be vested in a President of the
+         |                     ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     329 | Years ending at noon on the 20th day of January, and, together with the Vice
+     330 | President, chosen for the same Term, be elected, as follows
+         |                                      ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      332 | Each State shall appoint, in such Manner as the Legislature thereof may direct,
@@ -856,6 +1328,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     333 | a Number of Electors, equal to the whole Number of Senators and Representatives
+     334 | to which the State may be entitled in the Congress: but no Senator or
+         |                    ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Capitalization (31 priority)
 Message: |
      335 | Representative, or Person holding an Office of Trust or Profit under the United
@@ -864,6 +1344,14 @@ Message: |
          | ~~~~~~ When referring to national or international organizations, make sure to treat them as a proper noun.
 Suggest:
   - Replace with: “United States”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     335 | Representative, or Person holding an Office of Trust or Profit under the United
+     336 | States, shall be appointed an Elector.
+         |         ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -913,6 +1401,14 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     349 | the Senate and House of Representatives, open all the certificates and the
+     350 | votes shall then be counted;—The person having the greatest Number of votes for
+         |       ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      355 | by ballot, the President. But in choosing the President, the votes shall be
@@ -923,6 +1419,15 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      358 | states, and a majority of all the states shall be necessary to a choice. [If,
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 51 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     355 | by ballot, the President. But in choosing the President, the votes shall be
+         |                                                                    ^~~~~~~~~
+     356 | taken by states, the representation from each state having one vote; a quorum
+         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -946,6 +1451,22 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      368 | have qualified.The Congress may by law provide for the case of the death of any
          | ~~~~~~~~~~~~~~~ This sentence is 101 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     360 | elect shall have died, the Vice President elect shall become President. If a
+     361 | President shall not have been chosen before the time fixed for the beginning of
+         |           ^~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     366 | act as President, or the manner in which one who is to act shall be selected,
+         |                                                            ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     367 | and such person shall act accordingly until a President or Vice President shall
 
 
 
@@ -1032,6 +1553,30 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     396 | No person shall be elected to the office of the President more than twice, and
+         |           ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     398 | than two years of a term to which some other person was elected President shall
+         |                                                     ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     399 | be elected to the office of the President more than once. But this article
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     398 | than two years of a term to which some other person was elected President shall
+         |                                                                           ^~~~~~
+     399 | be elected to the office of the President more than once. But this article
+         | ~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      399 | be elected to the office of the President more than once. But this article
@@ -1046,6 +1591,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      404 | acting as President during the remainder of such term.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 65 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     400 | shall not apply to any person holding the office of President when this article
+     401 | was proposed by the Congress, and shall not prevent any person who may be
+         | ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1092,6 +1645,15 @@ Message: |
      416 | the Speaker of the House of Representatives his written declaration that he is
 Suggest:
   - Replace with: “temp ore”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     418 | to them a written declaration to the contrary, such powers and duties shall be
+         |                                                                       ^~~~~~~~~
+     419 | discharged by the Vice President as Acting President.
+         | ~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1218,6 +1780,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     438 | receipt of the latter written declaration, or, if Congress is not in session,
+     439 | within twenty-one days after Congress is required to assemble, determines by
+         |                                       ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     440 | two-thirds vote of both Houses that the President is unable to discharge the
+
+
+
 Lint:    Capitalization (31 priority)
 Message: |
      446 | #### SubSection 4.
@@ -1251,6 +1822,15 @@ Suggest:
   - Replace with: “increased”
   - Replace with: “encased”
   - Replace with: “entreated”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     449 | Services, a Compensation, which shall neither be encreased nor diminished
+     450 | during the Period for which he shall have been elected, and he shall not
+         |                                ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     451 | receive within that Period any other Emolument from the United States, or any
 
 
 
@@ -1328,6 +1908,31 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     466 | of Senators and Representatives in Congress to which the District would be
+         |                                                                   ^~~~~~~~~
+     467 | entitled if it were a State, but in no event more than the least populous
+         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     468 | State; they shall be in addition to those appointed by the States, but they
+     469 | shall be considered, for the purposes of the election of President and Vice
+         | ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     469 | shall be considered, for the purposes of the election of President and Vice
+     470 | President, to be electors appointed by a State; and they shall meet in the
+         |                           ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      476 | The President shall be Commander in Chief of the Army and Navy
@@ -1393,6 +1998,39 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     488 | and all other Officers of the United States, whose Appointments are not herein
+         |                                                                 ^~~~~~~~~~~~~~~
+     489 | otherwise provided for, and which shall be established by Law: but the Congress
+         | ~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     488 | and all other Officers of the United States, whose Appointments are not herein
+     489 | otherwise provided for, and which shall be established by Law: but the Congress
+         |                                   ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     498 | No soldier shall, in time of peace be quartered in any house, without the
+         |                                    ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     499 | consent of the owner, nor in time of war, but in a manner to be prescribed by
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     499 | consent of the owner, nor in time of war, but in a manner to be prescribed by
+         |                                                           ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     500 | law.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      504 | He shall from time to time give to the Congress Information of
@@ -1414,6 +2052,30 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     510 | Ministers; he shall take Care that the Laws be faithfully executed, and shall
+         |                                             ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     511 | Commission all the Officers of the United States.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     515 | The President, Vice President and all civil Officers of the
+     516 | United States, shall be removed from Office on Impeachment for, and Conviction
+         |                ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     523 | The judicial Power of the United States, shall be vested in
+         |                                          ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     524 | one supreme Court, and in such inferior Courts as the Congress may from time to
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      525 | time ordain and establish. The Judges, both of the supreme and inferior Courts,
@@ -1423,6 +2085,14 @@ Message: |
 Suggest:
   - Replace with: “Behavior”
   - Replace with: “Behaviors”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     527 | receive for their Services, a Compensation, which shall not be diminished
+         |                                                   ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     528 | during their Continuance in Office.
 
 
 
@@ -1444,6 +2114,14 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      539 | Lands under Grants of different States.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 87 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     533 | Equity, arising under this Constitution, the Laws of the United States, and
+     534 | Treaties made, or which shall be made, under their Authority;—to all Cases
+         |                         ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1471,6 +2149,30 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     548 | The Trial of all Crimes, except in Cases of Impeachment, shall be by Jury; and
+     549 | such Trial shall be held in the State where the said Crimes shall have been
+         |            ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     549 | such Trial shall be held in the State where the said Crimes shall have been
+         |                                                             ^~~~~~~~~~~~~~~~
+     550 | committed; but when not committed within any State, the Trial shall be at such
+         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     557 | Comfort. No Person shall be convicted of Treason unless on the Testimony of two
+         |                    ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      566 | The right of the people to be secure in their persons, houses,
@@ -1483,6 +2185,39 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      570 | the persons or things to be seized.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 54 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     567 | papers, and effects, against unreasonable searches and seizures, shall not be
+         |                                                                  ^~~~~~~~~~~~~
+     568 | violated, and no warrants shall issue, but upon probable cause, supported by
+         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     568 | violated, and no warrants shall issue, but upon probable cause, supported by
+         |                                                                 ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     569 | oath or affirmation, and particularly describing the place to be searched, and
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     569 | oath or affirmation, and particularly describing the place to be searched, and
+         |                                                            ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     570 | the persons or things to be seized.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     569 | oath or affirmation, and particularly describing the place to be searched, and
+     570 | the persons or things to be seized.
+         |                       ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1507,6 +2242,46 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     572 | No person shall be held to answer for a capital, or otherwise infamous crime,
+         |           ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     575 | of war or public danger; nor shall any person be subject for the same offense
+     576 | to be twice put in jeopardy of life or limb; nor shall be compelled in any
+         | ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     576 | to be twice put in jeopardy of life or limb; nor shall be compelled in any
+         |                                                  ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     577 | criminal case to be a witness against himself, nor be deprived of life,
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     577 | criminal case to be a witness against himself, nor be deprived of life,
+         |                                                    ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     578 | liberty, or property, without due process of law; nor shall private property be
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     578 | liberty, or property, without due process of law; nor shall private property be
+         |                                                                              ^~~
+     579 | taken for public use, without just compensation.
+         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      581 | In all criminal prosecutions, the accused shall enjoy the right to a speedy and
@@ -1526,6 +2301,38 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     582 | public trial, by an impartial jury of the state and district wherein the crime
+     583 | shall have been committed, which district shall have been previously
+         | ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     583 | shall have been committed, which district shall have been previously
+         |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+     584 | ascertained by law, and to be informed of the nature and cause of the
+         | ~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     583 | shall have been committed, which district shall have been previously
+     584 | ascertained by law, and to be informed of the nature and cause of the
+         |                         ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     585 | accusation; to be confronted with the witnesses against him; to have compulsory
+         |             ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      589 | In suits at common law, where the value in controversy shall exceed twenty
@@ -1539,6 +2346,45 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     589 | In suits at common law, where the value in controversy shall exceed twenty
+     590 | dollars, the right of trial by jury shall be preserved, and no fact tried by a
+         |                                     ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     591 | jury, shall be otherwise reexamined in any court of the United States, than
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     590 | dollars, the right of trial by jury shall be preserved, and no fact tried by a
+         |                                                                     ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     591 | jury, shall be otherwise reexamined in any court of the United States, than
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     590 | dollars, the right of trial by jury shall be preserved, and no fact tried by a
+     591 | jury, shall be otherwise reexamined in any court of the United States, than
+         |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     594 | Excessive bail shall not be required, nor excessive fines imposed, nor cruel
+         |                ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     601 | Full Faith and Credit shall be given in each State to the
+         |                       ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Style (31 priority)
 Message: |
      603 | Congress may by general Laws prescribe the Manner in which such Acts, Records
@@ -1546,6 +2392,14 @@ Message: |
      604 | and Proceedings shall be proved, and the Effect thereof.
 Suggest:
   - Insert “,”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     603 | Congress may by general Laws prescribe the Manner in which such Acts, Records
+     604 | and Proceedings shall be proved, and the Effect thereof.
+         |                 ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1575,6 +2429,15 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     616 | The right of citizens of the United States, who are eighteen years of age or
+     617 | older, to vote shall not be denied or abridged by the United States or by any
+         |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     618 | State on account of age, sex, race, color, or previous condition of servitude.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      620 | A Person charged in any State with Treason, Felony, or other Crime, who shall
@@ -1585,6 +2448,40 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      623 | removed to the State having Jurisdiction of the Crime.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 51 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     620 | A Person charged in any State with Treason, Felony, or other Crime, who shall
+     621 | flee from Justice, and be found in another State, shall on Demand of the
+         |                        ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     622 | executive Authority of the State from which he fled, be delivered up, to be
+         |                                                      ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     623 | removed to the State having Jurisdiction of the Crime.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     622 | executive Authority of the State from which he fled, be delivered up, to be
+         |                                                                       ^~~~~~
+     623 | removed to the State having Jurisdiction of the Crime.
+         | ~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     625 | Neither slavery nor involuntary servitude, except as a punishment for crime
+     626 | whereof the party shall have been duly convicted, shall exist within the United
+         |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     627 | States, or any place subject to their jurisdiction. No Person held to Service
 
 
 
@@ -1626,6 +2523,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     629 | in Consequence of any Law or Regulation therein, be discharged from such
+         |                                                  ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     630 | Service or Labour, but shall be delivered up on Claim of the Party to whom such
+
+
+
 Lint:    Spelling (63 priority)
 Message: |
      629 | in Consequence of any Law or Regulation therein, be discharged from such
@@ -1635,6 +2540,15 @@ Suggest:
   - Replace with: “Labor”
   - Replace with: “Layout”
   - Replace with: “Labium”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     629 | in Consequence of any Law or Regulation therein, be discharged from such
+     630 | Service or Labour, but shall be delivered up on Claim of the Party to whom such
+         |                        ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     631 | Service or Labour may be due.
 
 
 
@@ -1665,6 +2579,28 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     635 | New States may be admitted by the Congress into this Union; but
+         |            ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     635 | New States may be admitted by the Congress into this Union; but
+     636 | no new State shall be formed or erected within the Jurisdiction of any other
+         |              ^~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     637 | State; nor any State be formed by the Junction of two or more States, or Parts
+         |                      ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      641 | The Congress shall have Power to dispose of and make all needful Rules and
@@ -1689,6 +2625,14 @@ Suggest:
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     643 | States; and nothing in this Constitution shall be so construed as to Prejudice
+         |                                          ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     644 | any Claims of the United States, or of any particular State.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      648 | The United States shall guarantee to every State in this Union
@@ -1699,6 +2643,31 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      651 | Legislature cannot be convened) against domestic Violence.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     650 | Invasion; and on Application of the Legislature, or of the Executive (when the
+     651 | Legislature cannot be convened) against domestic Violence.
+         |                    ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     655 | The validity of the public debt of the United States,
+     656 | authorized by law, including debts incurred for payment of pensions and
+         | ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     657 | bounties for services in suppressing insurrection or rebellion, shall not be
+         |                                                                 ^~~~~~~~~~~~~
+     658 | questioned. But neither the United States nor any State shall assume or pay any
+         | ~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1722,6 +2691,14 @@ Message: |
          |             ^~~~~~~~~~~ An Oxford comma is necessary here.
 Suggest:
   - Insert “,”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     660 | United States, or any claim for the loss or emancipation of any slave; but all
+     661 | such debts, obligations and claims shall be held illegal and void.
+         |                                    ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1763,6 +2740,38 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     669 | Purposes, as Part of this Constitution, when ratified by the Legislatures of
+         |                                              ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     670 | three fourths of the several States, or by Conventions in three fourths
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     671 | thereof, as the one or the other Mode of Ratification may be proposed by the
+         |                                                       ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     672 | Congress; Provided that no Amendment which may be made prior to the Year One
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     672 | Congress; Provided that no Amendment which may be made prior to the Year One
+         |                                            ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     673 | thousand eight hundred and eight shall in any Manner affect the first and
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     674 | fourth Clauses in the Ninth Section of the first Article; and that no State,
+     675 | without its Consent, shall be deprived of its equal Suffrage in the Senate.
+         |                      ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Capitalization (127 priority)
 Message: |
      677 | ## Article. VI.
@@ -1787,6 +2796,30 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     683 | This Constitution, and the Laws of the United States which shall be made in
+         |                                                            ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     684 | Pursuance thereof; and all Treaties made, or which shall be made, under the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     684 | Pursuance thereof; and all Treaties made, or which shall be made, under the
+         |                                                    ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     685 | Authority of the United States, shall be the supreme Law of the Land; and the
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     685 | Authority of the United States, shall be the supreme Law of the Land; and the
+     686 | Judges in every State shall be bound thereby, any Thing in the Constitution or
+         |                       ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Readability (127 priority)
 Message: |
      689 | The Senators and Representatives before mentioned, and the Members of the
@@ -1804,6 +2837,23 @@ Message: |
 
 
 
+Lint:    Style (180 priority)
+Message: |
+     691 | the United States and of the several States, shall be bound by Oath or
+         |                                              ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     692 | Affirmation, to support this Constitution; but no religious Test shall ever be
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     692 | Affirmation, to support this Constitution; but no religious Test shall ever be
+         |                                                                  ^~~~~~~~~~~~~~
+     693 | required as a Qualification to any Office or public Trust under the United
+         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    Capitalization (31 priority)
 Message: |
      693 | required as a Qualification to any Office or public Trust under the United
@@ -1812,6 +2862,45 @@ Message: |
          | ~~~~~~ When referring to national or international organizations, make sure to treat them as a proper noun.
 Suggest:
   - Replace with: “United States”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     697 | right of the people to keep and bear arms, shall not be infringed.
+         |                                            ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     701 | The enumeration in the Constitution, of certain rights, shall
+         |                                                         ^~~~~~
+     702 | not be construed to deny or disparage others retained by the people.
+         | ~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     702 | not be construed to deny or disparage others retained by the people.
+         |                                              ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     713 | The Word "the", being interlined between the seventh and eight Lines of the
+         |                 ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     713 | The Word "the", being interlined between the seventh and eight Lines of the
+     714 | first Page, The Word "Thirty" being partly written on an Erazure in the
+         |                               ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     715 | fifteenth Line of the first Page. The Words "is tried" being interlined between
 
 
 
@@ -1824,6 +2913,30 @@ Suggest:
   - Replace with: “Erasure”
   - Replace with: “Erasures”
   - Replace with: “Azure”
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     715 | fifteenth Line of the first Page. The Words "is tried" being interlined between
+         |                                              ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     716 | the thirty second and thirty third Lines of the first Page and the Word "the"
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     715 | fifteenth Line of the first Page. The Words "is tried" being interlined between
+         |                                                        ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+     716 | the thirty second and thirty third Lines of the first Page and the Word "the"
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     716 | the thirty second and thirty third Lines of the first Page and the Word "the"
+     717 | being interlined between the forty third and forty fourth Lines of the second
+         | ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1846,6 +2959,13 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      724 | Twelfth In witness whereof We have hereunto subscribed our Names,
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 50 words long.
+
+
+
+Lint:    Style (180 priority)
+Message: |
+     732 | liquors, in violation of the laws thereof, is hereby prohibited.
+         |                                            ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 

@@ -1,3 +1,5 @@
+> **Passive voice fork:** This fork adds a configurable `PassiveVoice` style rule. See [the fork guide](PASSIVE_VOICE.md) for building, configuration, examples, and licensing.
+
 <div id="header" align="center">
     <img src="logo.svg" width="400px" />
     <h1>Harper</h1>

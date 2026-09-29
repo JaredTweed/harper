@@ -1,3 +1,10 @@
+Lint:    Style (180 priority)
+Message: |
+       3 | This documents tests that different forms/variations of swears are tagged as such.
+         |                                                                ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+
+
+
 Lint:    WordChoice (127 priority)
 Message: |
        7 | One turd, two turds.

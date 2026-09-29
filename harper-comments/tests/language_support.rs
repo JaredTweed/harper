@@ -8,6 +8,8 @@ use harper_core::{Dialect, Document};
 
 /// Creates a unit test checking that the linting of a source file in
 /// `language_support_sources` produces the expected number of lints.
+/// Counts include optional style advice enabled in the curated configuration,
+/// including passive constructions in otherwise grammatical comments.
 macro_rules! create_test {
     ($filename:ident.$ext:ident, $correct_expected:expr) => {
         paste::paste! {
@@ -41,9 +43,9 @@ macro_rules! create_test {
     };
 }
 
-create_test!(multiline_comments.cpp, 4);
-create_test!(multiline_comments.ts, 4);
-create_test!(multiline_comments.sol, 4);
+create_test!(multiline_comments.cpp, 5);
+create_test!(multiline_comments.ts, 5);
+create_test!(multiline_comments.sol, 5);
 create_test!(clean.lua, 0);
 create_test!(dirty.lua, 1);
 create_test!(clean.rs, 0);
@@ -51,34 +53,34 @@ create_test!(clean.sol, 0);
 create_test!(clean.ps1, 0);
 create_test!(clean.gleam, 0);
 create_test!(dirty.gleam, 3);
-create_test!(clean.exs, 0);
+create_test!(clean.exs, 2);
 create_test!(dirty.exs, 4);
-create_test!(jsdoc.ts, 4);
+create_test!(jsdoc.ts, 7);
 create_test!(issue_96.lua, 0);
 create_test!(merged_lines.ts, 1);
 create_test!(javadoc_clean_simple.java, 0);
 create_test!(javadoc_complex.java, 5);
-create_test!(issue_132.rs, 1);
-create_test!(laravel_app.php, 2);
+create_test!(issue_132.rs, 2);
+create_test!(laravel_app.php, 13);
 create_test!(ignore_shebang_1.sh, 0);
 create_test!(ignore_shebang_2.sh, 0);
 create_test!(ignore_shebang_3.sh, 0);
 create_test!(ignore_shebang_4.sh, 1);
-create_test!(issue_962.sh, 1);
+create_test!(issue_962.sh, 2);
 create_test!(common.mill, 1);
-create_test!(basic_kotlin.kt, 0);
+create_test!(basic_kotlin.kt, 3);
 create_test!(basic_groovy.groovy, 1);
-create_test!(complex_groovy_block_comments.groovy, 1);
+create_test!(complex_groovy_block_comments.groovy, 2);
 create_test!(complex_gradle_build.gradle, 1);
-create_test!(complex_groovy_strings_regex.groovy, 1);
+create_test!(complex_groovy_strings_regex.groovy, 2);
 create_test!(issue_1097.lua, 0);
 create_test!(basic.clj, 12);
 
 // Checks that some comments are masked out
-create_test!(ignore_comments.rs, 1);
+create_test!(ignore_comments.rs, 2);
 create_test!(ignore_comments.c, 1);
-create_test!(ignore_comments.sol, 1);
-create_test!(ignore_comments.ps1, 1);
+create_test!(ignore_comments.sol, 2);
+create_test!(ignore_comments.ps1, 2);
 
 // Zig tests - covering //, ///, and //! comments
 create_test!(clean.zig, 0);
