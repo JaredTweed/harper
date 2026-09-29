@@ -81,6 +81,12 @@ impl Linter for PassiveVoice {
                 covered_through = Some(end_idx);
 
                 let start_idx = auxiliary_chain_start(sentence, &word_indices, start_idx, source);
+                let start_idx = if is_question {
+                    inverted_question_chain_start(sentence, &word_indices, start_idx, source)
+                        .unwrap_or(start_idx)
+                } else {
+                    start_idx
+                };
                 lints.push(Lint {
                     span: Span::new(sentence[start_idx].span.start, sentence[end_idx].span.end),
                     lint_kind: LintKind::Style,
@@ -506,6 +512,139 @@ fn sentence_is_question(sentence: &[Token], source: &[char]) -> bool {
     }
 
     false
+}
+
+/// Once a passive has been established, include the fronted auxiliary in an
+/// inverted question. The subject intervenes, so the ordinary chain scan must
+/// stop before it. A separate finite predicate or clause boundary blocks the
+/// extension.
+fn inverted_question_chain_start(
+    sentence: &[Token],
+    indices: &[usize],
+    start_idx: usize,
+    source: &[char],
+) -> Option<usize> {
+    // Finite auxiliaries already start their own clause. Extending one to an
+    // earlier auxiliary can accidentally swallow a containing question, as in
+    // "Is that the reason the cups are put away?".
+    let start_word = normalized_word(&sentence[start_idx], source);
+    if !matches!(
+        start_word.as_str(),
+        "to" | "be"
+            | "been"
+            | "being"
+            | "have"
+            | "get"
+            | "got"
+            | "gotten"
+            | "getting"
+            | "become"
+            | "becoming"
+    ) {
+        return None;
+    }
+    let start_pos = indices.partition_point(|&idx| idx < start_idx);
+    let mut saw_subject = false;
+    let mut in_relative = false;
+
+    for pos in (0..start_pos).rev().take(16) {
+        let idx = indices[pos];
+        if has_hard_boundary(&sentence[idx + 1..start_idx]) {
+            return None;
+        }
+        let token = &sentence[idx];
+        let lower = normalized_word(token, source);
+        if matches!(
+            lower.as_str(),
+            "when"
+                | "while"
+                | "because"
+                | "although"
+                | "unless"
+                | "since"
+                | "after"
+                | "before"
+                | "if"
+                | "whether"
+        ) {
+            return None;
+        }
+        let auxiliary = is_be_form(&lower)
+            || is_get_form(&lower)
+            || is_become_form(&lower)
+            || matches!(
+                lower.as_str(),
+                "have"
+                    | "has"
+                    | "had"
+                    | "haven't"
+                    | "hasn't"
+                    | "hadn't"
+                    | "can"
+                    | "could"
+                    | "may"
+                    | "might"
+                    | "must"
+                    | "shall"
+                    | "should"
+                    | "will"
+                    | "would"
+                    | "can't"
+                    | "cannot"
+                    | "couldn't"
+                    | "shouldn't"
+                    | "won't"
+                    | "wouldn't"
+                    | "mustn't"
+                    | "do"
+                    | "does"
+                    | "did"
+            );
+        let modal_or_do = matches!(
+            lower.as_str(),
+            "can"
+                | "could"
+                | "may"
+                | "might"
+                | "must"
+                | "shall"
+                | "should"
+                | "will"
+                | "would"
+                | "can't"
+                | "cannot"
+                | "couldn't"
+                | "shouldn't"
+                | "won't"
+                | "wouldn't"
+                | "mustn't"
+                | "do"
+                | "does"
+                | "did"
+        );
+        if auxiliary
+            && (!matches!(start_word.as_str(), "have" | "get") || modal_or_do)
+            && saw_subject
+            && !in_relative
+            && is_question_aux_position(sentence, indices, pos, source)
+        {
+            return Some(idx);
+        }
+        if matches!(lower.as_str(), "that" | "which" | "who" | "whom") {
+            in_relative = false;
+        } else if (token.kind.is_upos(UPOS::VERB) || token.kind.is_upos(UPOS::AUX)) && !auxiliary {
+            in_relative = true;
+        }
+        saw_subject |= token.kind.is_upos(UPOS::NOUN)
+            || token.kind.is_upos(UPOS::PROPN)
+            || token.kind.is_upos(UPOS::PRON)
+            || token
+                .kind
+                .as_word()
+                .and_then(|m| m.as_ref())
+                .is_some_and(|m| m.pos_tag.is_none() && m.is_nominal());
+    }
+    None
 }
 
 /// Include modal/perfect/progressive auxiliaries, but never absorb a subject.

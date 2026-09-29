@@ -31,8 +31,15 @@ auxiliary	The work needs to be done.	to be done
 auxiliary	The report is expected to be published.	is expected|to be published
 question	Was the report signed by Alice?	Was the report signed
 question	Why was the report rejected?	was the report rejected
-question	Has the report been reviewed?	been reviewed
-question	Did the document get deleted?	get deleted
+question	Has the report been reviewed?	Has the report been reviewed
+question	Did the document get deleted?	Did the document get deleted
+question	Will the report be reviewed?	Will the report be reviewed
+question	Could the report have been reviewed?	Could the report have been reviewed
+question	Is the report being reviewed?	Is the report being reviewed
+question	Why has the report not been reviewed?	has the report not been reviewed
+question	Why did Alice say the report was rejected?	was rejected
+question	Is that the reason the cups are put away?	are put
+question	Is that the reason the cups are being put away?	are being put
 question	Was the report that Alice wrote published?	Was the report that Alice wrote published
 question	Was the report written and approved?	Was the report written and approved
 question	Why did Alice say the report was rejected?	was rejected

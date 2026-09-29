@@ -1475,7 +1475,7 @@ Lint:    Style (180 priority)
 Message: |
      780 | do it! Oh dear! I’d nearly forgotten that I’ve got to grow up again! Let me
      781 | see—how is it to be managed? I suppose I ought to eat or drink something or
-         |               ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
+         |         ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
