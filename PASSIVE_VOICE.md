@@ -47,4 +47,6 @@ Validation on Rust 1.97.1 includes the complete `just test-rust` suite (includin
 
 ## Licensing
 
-Upstream Harper retains its Apache 2.0 license and notices. The added detector is derived from the GPL version 3 licensed PassiveVoiceDetector repository; its license is preserved in `LICENSE-PASSIVE-VOICE`. The `harper-core` package records both licenses. This fork does not assume permission to relicense the original detector as Apache 2.0.
+The detector contribution in this fork is provided under Apache License 2.0. Harper's original `LICENSE`, existing notices, and `harper-core` package license declaration remain unchanged. No GPL license file is added to Harper.
+
+The standalone [PassiveVoiceDetector](https://github.com/JaredTweed/PassiveVoiceDetector) repository retains its GPL license and provides `passive_voice.rs` under an Apache 2.0 alternative for Harper integration.

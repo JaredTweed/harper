@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: GPL-3.0-only
-// Derived from JaredTweed/PassiveVoiceDetector; see LICENSE-PASSIVE-VOICE.
+// SPDX-License-Identifier: Apache-2.0
+// Original project: JaredTweed/PassiveVoiceDetector.
 
 use harper_brill::UPOS;
 
