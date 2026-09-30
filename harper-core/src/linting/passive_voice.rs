@@ -91,8 +91,12 @@ impl Linter for PassiveVoice {
                     span: Span::new(sentence[start_idx].span.start, sentence[end_idx].span.end),
                     lint_kind: LintKind::Style,
                     suggestions: vec![],
-                    message: "Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer."
-                        .to_owned(),
+                    message: if by_agent {
+                        "Possible passive voice. The actor is named; consider active voice if it would improve the emphasis or clarity."
+                    } else {
+                        "Possible passive voice. Is the actor relevant but unclear? If so, name the actor or use active voice; otherwise this wording may be appropriate."
+                    }
+                    .to_owned(),
                     priority: 180,
                 });
             }
@@ -1463,8 +1467,9 @@ fn has_agentive_by(
     source: &[char],
 ) -> bool {
     let candidate_idx = word_indices[word_pos];
+    let mut in_prepositional_phrase = false;
 
-    for &idx in word_indices.iter().skip(word_pos + 1).take(9) {
+    for (offset, &idx) in word_indices.iter().skip(word_pos + 1).take(9).enumerate() {
         if has_hard_boundary(&sentence[candidate_idx + 1..idx]) {
             return false;
         }
@@ -1474,15 +1479,50 @@ fn has_agentive_by(
         if text == "by" {
             return !by_phrase_is_nonagentive(sentence, idx, source);
         }
+        // An adjunct may intervene between the participle and its agent:
+        // "guaranteed on any input by a finite state-space". Do not let the
+        // search cross a new finite clause. A coordinated participle can
+        // share the same agent: "was stunned and exhausted by the speech".
+        if matches!(text.as_str(), "and" | "or" | "but" | "yet") {
+            let mut next_pos = word_pos + offset + 2;
+            while let Some(&next_idx) = word_indices.get(next_pos) {
+                let next = &sentence[next_idx];
+                if is_gap_modifier(next, &normalized_word(next, source)) {
+                    next_pos += 1;
+                } else {
+                    break;
+                }
+            }
+            if !word_indices.get(next_pos).is_some_and(|&next_idx| {
+                is_participle_candidate(&sentence[next_idx], source)
+                    && !has_hard_boundary(&sentence[idx + 1..next_idx])
+            }) {
+                return false;
+            }
+            continue;
+        }
+        if token.kind.is_upos(UPOS::SCONJ) {
+            return false;
+        }
+        if token.kind.is_upos(UPOS::ADP)
+            || matches!(
+                text.as_str(),
+                "on" | "in" | "at" | "for" | "with" | "to" | "from"
+            )
+        {
+            in_prepositional_phrase = true;
+            continue;
+        }
         if (token.kind.is_upos(UPOS::VERB) || token.kind.is_upos(UPOS::AUX))
             && !is_participle_candidate(token, source)
         {
             return false;
         }
-        if token.kind.is_determiner()
-            || token.kind.is_pronoun()
-            || token.kind.is_upos(UPOS::NOUN)
-            || token.kind.is_upos(UPOS::PROPN)
+        if !in_prepositional_phrase
+            && (token.kind.is_determiner()
+                || token.kind.is_pronoun()
+                || token.kind.is_upos(UPOS::NOUN)
+                || token.kind.is_upos(UPOS::PROPN))
         {
             return false;
         }

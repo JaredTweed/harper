@@ -7,14 +7,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      14 | computation concerns abstract models of computation and general classes of
-      15 | problems that can be solved using them. The fields of cryptography and computer
-         |               ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Style (31 priority)
 Message: |
       27 | problem-solving, decision-making, environmental adaptation, planning and
@@ -22,22 +14,6 @@ Message: |
       28 | learning found in humans and animals. Within artificial intelligence, computer
 Suggest:
   - Insert “,”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      32 | The fundamental concern of computer science is determining what can and cannot
-      33 | be automated. The Turing Award is generally recognized as the highest
-         | ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      33 | be automated. The Turing Award is generally recognized as the highest
-         |                                ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      34 | distinction in computer science.
 
 
 
@@ -75,14 +51,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      47 | calculator, called the Stepped Reckoner. Leibniz may be considered the first
-         |                                                  ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      48 | computer scientist and information theorist, because of various reasons,
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
       49 | including the fact that he documented the binary number system. In 1820, Thomas
@@ -106,14 +74,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      51 | his simplified arithmometer, the first calculating machine strong enough and
-      52 | reliable enough to be used daily in an office environment. Charles Babbage
-         |                 ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
       59 | programmable.[note 2] In 1843, during the translation of a French article on the
@@ -124,14 +84,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       62 | published algorithm ever specifically tailored for implementation on a computer.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 48 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      61 | algorithm to compute the Bernoulli numbers, which is considered to be the first
-         |                                                   ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      62 | published algorithm ever specifically tailored for implementation on a computer.
 
 
 
@@ -158,23 +110,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      67 | history. In 1914, the Spanish engineer Leonardo Torres Quevedo published his
-      68 | Essays on Automatics, and designed, inspired by Babbage, a theoretical
-         |                                     ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      69 | electromechanical calculating machine which was to be controlled by a read-only
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      69 | electromechanical calculating machine which was to be controlled by a read-only
-         |                                             ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      70 | program. The paper also introduced the idea of floating-point arithmetic. In
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
       71 | 1920, to celebrate the 100th anniversary of the invention of the arithmometer,
@@ -194,14 +129,6 @@ Message: |
 Suggest:
   - Replace with: “Arithmetic”
   - Replace with: “Anemometer”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      73 | demonstrated the feasibility of an electromechanical analytical engine, on which
-      74 | commands could be typed and the results printed automatically. In 1937, one
-         |          ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -257,14 +184,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      84 | to refer to the machines rather than their human predecessors. As it became
-      85 | clear that computers could be used for more than just mathematical calculations,
-         |                      ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
       87 | 1945, IBM founded the Watson Scientific Computing Laboratory at Columbia
@@ -284,22 +203,6 @@ Message: |
          | ~~~~~~~~~~ Ensure proper capitalization of major universities in the United States.
 Suggest:
   - Replace with: “Columbia University”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      94 | science in 1946. Computer science began to be established as a distinct academic
-         |                                         ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      95 | discipline in the 1950s and early 1960s. The world's first computer science
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      97 | University of Cambridge Computer Laboratory in 1953. The first computer science
-      98 | department in the United States was formed at Purdue University in 1962. Since
-         |                                 ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -337,37 +240,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     107 | Harvard Business School in 1921. Louis justifies the name by arguing that, like
-     108 | management science, the subject is applied and interdisciplinary in nature,
-         |                                 ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     109 | while having the characteristics typical of an academic discipline. His efforts,
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      110 | and those of others such as numerical analyst George Forsythe, were rewarded:
          |                                                      ^~~~~~~~ Did you mean `Forsythia`?
 Suggest:
   - Replace with: “Forsythia”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     110 | and those of others such as numerical analyst George Forsythe, were rewarded:
-         |                                                                ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     113 | study of computers themselves. Because of this, several alternative names have
-         |                                                                           ^~~~~
-     114 | been proposed. Certain departments of major universities prefer the term
-         | ~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -431,22 +309,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     120 | Peter Naur being the first professor in datalogy. The term is used mainly in the
-         |                                                            ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     121 | Scandinavian countries. An alternative term, also proposed by Naur, is data
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     121 | Scandinavian countries. An alternative term, also proposed by Naur, is data
-         |                                                   ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     122 | science; this is now used for a multi-disciplinary field of data analysis,
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      121 | Scandinavian countries. An alternative term, also proposed by Naur, is data
@@ -459,13 +321,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     122 | science; this is now used for a multi-disciplinary field of data analysis,
-         |               ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (127 priority)
 Message: |
      122 | science; this is now used for a multi-disciplinary field of data analysis,
@@ -473,14 +328,6 @@ Message: |
      123 | including statistics and databases.
 Suggest:
   - Replace with: “multidisciplinary”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     125 | In the early days of computing, a number of terms for the practitioners of the
-     126 | field of computing were suggested (albeit facetiously) in the Communications of
-         |                    ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -518,14 +365,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     128 | and applied epistemologist. Three months later in the same journal, comptologist
-     129 | was suggested, followed next year by hypologist. The term computics has also
-         | ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      128 | and applied epistemologist. Three months later in the same journal, comptologist
@@ -547,15 +386,6 @@ Suggest:
   - Replace with: “computers”
   - Replace with: “computes”
   - Replace with: “computing”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     129 | was suggested, followed next year by hypologist. The term computics has also
-         |                                                                     ^~~~~~~~~
-     130 | been suggested. In Europe, terms derived from contracted translations of the
-         | ~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -605,14 +435,6 @@ Message: |
      132 | or "information and mathematics" are often used, e.g. informatique (French),
 Suggest:
   - Replace with: “automatic a”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     131 | expression "automatic information" (e.g. "informazione automatica" in Italian)
-     132 | or "information and mathematics" are often used, e.g. informatique (French),
-         |                                  ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -680,23 +502,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     135 | (πληροφορική, which means informatics) in Greek. Similar words have also been
-         |                                                                ^~~~~~~~~~~~~~~
-     136 | adopted in the UK (as in the School of Informatics, University of Edinburgh).
-         | ~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     137 | "In the U.S., however, informatics is linked with applied computing, or
-         |                                    ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     138 | computing in the context of another domain."
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      140 | A folkloric quotation, often attributed to—but almost certainly not first
@@ -706,38 +511,6 @@ Suggest:
   - Replace with: “Edger”
   - Replace with: “Eager”
   - Replace with: “Edge”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     142 | computers than astronomy is about telescopes."[note 3] The design and deployment
-     143 | of computers and computer systems is generally considered the province of
-         |                                   ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     144 | disciplines other than computer science. For example, the study of computer
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     144 | disciplines other than computer science. For example, the study of computer
-     145 | hardware is usually considered part of computer engineering, while the study of
-         |          ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     146 | commercial computer systems and their deployment is often called information
-         |                                                  ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     147 | technology or information systems. However, there has been exchange of ideas
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     152 | Computer science is considered by some to have a much closer relationship with
-         |                  ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -753,15 +526,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      158 | category theory, domain theory, and algebra.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 51 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     154 | computing is a mathematical science. Early computer science was strongly
-         |                                                             ^~~~~~~~~~~~~
-     155 | influenced by the work of mathematicians such as Kurt Gödel, Alan Turing, John
-         | ~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -809,22 +573,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     160 | The relationship between computer science and software engineering is a
-     161 | contentious issue, which is further muddied by disputes over what the term
-         |                          ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     162 | "software engineering" means, and how computer science is defined. David Parnas,
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     162 | "software engineering" means, and how computer science is defined. David Parnas,
-         |                                                        ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      162 | "software engineering" means, and how computer science is defined. David Parnas,
@@ -851,14 +599,6 @@ Suggest:
   - Replace with: “Paras”
   - Replace with: “Parkas”
   - Replace with: “Parana's”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     169 | The academic, political, and funding aspects of computer science tend to depend
-     170 | on whether a department is formed with a mathematical emphasis or with an
-         |                         ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -895,14 +635,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     187 | > the experimental method. Nonetheless, they are experiments. Each new machine
-     188 | > that is built is an experiment. Actually constructing the machine poses a
-         |        ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      192 | It has since been argued that computer science can be classified as an empirical
@@ -918,29 +650,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     192 | It has since been argued that computer science can be classified as an empirical
-         |              ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     192 | It has since been argued that computer science can be classified as an empirical
-         |                                                ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     193 | science since it makes use of empirical testing to evaluate the correctness of
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     197 | argue that the reliability of computational systems is investigated in the same
-         |                                                     ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     198 | way as bridges in civil engineering and airplanes in aerospace engineering. They
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      198 | way as bridges in civil engineering and airplanes in aerospace engineering. They
@@ -953,23 +662,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      202 | instead concerned with creating phenomena.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     200 | science observes what is possible to exist and while scientists discover laws
-     201 | from observation, no proper laws have been found in computer science and it is
-         |                                  ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     202 | instead concerned with creating phenomena.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     205 | that computer programs are physical realizations of mathematical entities and
-     206 | programs that can be deductively reasoned through mathematical formal methods.
-         |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1083,15 +775,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     219 | mainly employs deductive reasoning), the "technocratic paradigm" (which might be
-         |                                                                         ^~~~~~~~~
-     220 | found in engineering approaches, most prominently in software engineering), and
-         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Style (31 priority)
 Message: |
      224 | design, specification, programming, verification, implementation and testing of
@@ -1128,14 +811,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      236 | programming methodology and languages, and computer elements and architecture.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 56 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     232 | Computing Sciences Accreditation Board—which is made up of representatives of
-         |                                              ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     233 | the Association for Computing Machinery (ACM), and the IEEE Computer Society
 
 
 
@@ -1204,48 +879,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     252 | According to Peter Denning, the fundamental question underlying computer science
-     253 | is, "What can be automated?" Theory of computation is focused on answering
-         |           ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     253 | is, "What can be automated?" Theory of computation is focused on answering
-         |                                                    ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     254 | fundamental questions about what can be computed and what amount of resources
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     253 | is, "What can be automated?" Theory of computation is focused on answering
-     254 | fundamental questions about what can be computed and what amount of resources
-         |                                  ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     255 | are required to perform those computations. In an effort to answer the first
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     254 | fundamental questions about what can be computed and what amount of resources
-     255 | are required to perform those computations. In an effort to answer the first
-         | ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     257 | solvable on various theoretical models of computation. The second question is
-         |                                                                            ^~~
-     258 | addressed by computational complexity theory, which studies the time and space
-         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      262 | The famous P = NP? problem, one of the Millennium Prize Problems, is an open
@@ -1272,30 +905,6 @@ Message: |
          | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Try to use title case in headings.
 Suggest:
   - Replace with: “#### Information and Coding Theory”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     268 | the quantification of information. This was developed by Claude Shannon to find
-         |                                         ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     269 | fundamental limits on signal processing operations such as compressing data and
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     272 | another) and their fitness for a specific application. Codes are used for data
-         |                                                              ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     273 | compression, cryptography, error detection and correction, and more recently
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     274 | also for network coding. Codes are studied for the purpose of designing
-         |                                ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     275 | efficient and reliable data transmission methods.
 
 
 
@@ -1338,30 +947,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     293 | The use of formal methods for software and hardware design is motivated by the
-         |                                                            ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     294 | expectation that, as in other engineering disciplines, performing appropriate
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     299 | give a framework for testing. For industrial use, tool support is required.
-         |                                                                ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     300 | However, the high cost of using formal methods means that they are usually only
-         |                                                                ^~~~~~~~~~~~~~~~~
-     301 | used in the development of high-integrity and life-critical systems, where
-         | ~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      302 | safety or security is of utmost importance. Formal methods are best described as
@@ -1395,23 +980,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     313 | synthesis and manipulation of image data. The study is connected to many other
-         |                                                     ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     314 | fields in computer science, including computer vision, image processing, and
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     314 | fields in computer science, including computer vision, image processing, and
-     315 | computational geometry, and is heavily applied in the fields of special effects
-         |                             ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     316 | and video games.
-
-
-
 Lint:    Capitalization (127 priority)
 Message: |
      318 | #### Image and sound processing
@@ -1427,14 +995,6 @@ Message: |
          |                                                 ^~~~~ An Oxford comma is necessary here.
 Suggest:
   - Insert “,”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     320 | Information can take the form of images, sound, video or other multimedia. Bits
-     321 | of information can be streamed via signals. Its processing is the central notion
-         |                ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1535,22 +1095,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     365 | Artificial intelligence (AI) aims to or is required to synthesize
-         |                                         ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     366 | goal-orientated processes such as problem-solving, decision-making,
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     376 | "Can computers think?", and the question remains effectively unanswered,
-     377 | although the Turing test is still used to assess computer output on the scale of
-         |                          ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (127 priority)
 Message: |
      383 | ### Computer systems
@@ -1566,13 +1110,6 @@ Message: |
          | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Try to use title case in headings.
 Suggest:
   - Replace with: “#### Computer Architecture and Microarchitecture”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     393 | term "architecture" in computer literature can be traced to the work of Lyle R.
-         |                                            ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1607,14 +1144,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     400 | simultaneously, and potentially interacting with each other. A number of
-     401 | mathematical models have been developed for general concurrent computation
-         |                     ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      401 | mathematical models have been developed for general concurrent computation
@@ -1624,31 +1153,6 @@ Suggest:
   - Replace with: “Petra”
   - Replace with: “Perth”
   - Replace with: “Pet's”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     403 | model. When multiple computers are connected in a network while using
-         |                                ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     404 | concurrency, this is known as a distributed system. Computers within that
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     403 | model. When multiple computers are connected in a network while using
-     404 | concurrency, this is known as a distributed system. Computers within that
-         |                   ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     405 | distributed system have their own private memory, and information can be
-         |                                                                   ^~~~~~~
-     406 | exchanged to achieve common goals.
-         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1680,34 +1184,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     421 | Modern cryptography is the scientific study of problems relating to distributed
-     422 | computations that can be attacked. Technologies studied in modern cryptography
-         |                   ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (127 priority)
 Message: |
      427 | #### Databases and data mining
          | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Try to use title case in headings.
 Suggest:
   - Replace with: “#### Databases and Data Mining”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     429 | A database is intended to organize, store, and retrieve large amounts of data
-         |            ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     430 | easily. Digital databases are managed using database management systems to
-         |                           ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1743,14 +1225,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     442 |   > All the information about any computable problem can be represented using
-         |                                                      ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     443 |   > only 0 and 1 (or any other bistable pair that can flip-flop between two
-
-
-
 Lint:    Spelling (127 priority)
 Message: |
      444 |   > easily distinguishable states, such as "on/off", "magnetized/de-magnetized",
@@ -1758,13 +1232,6 @@ Message: |
      445 |   > "high-voltage/low-voltage", etc.).
 Suggest:
   - Replace with: “demagnetized”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     449 |   Every algorithm can be expressed in a language for a computer consisting of
-         |                   ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1808,21 +1275,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     459 |   combining these actions (into more complex ones) that are needed in order for
-         |                                                         ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     460 |   a computer to do "anything".
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     462 |   Only three rules are needed to combine any set of basic instructions into more
-         |                    ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
      466 |   - selection: IF such-and-such is the case, THEN do this, ELSE do that;
@@ -1863,15 +1315,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     467 |   - repetition: WHILE such-and-such is the case, DO this. The three rules of
-     468 |     Boehm's and Jacopini's insight can be further simplified with the use of
-         |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     469 |     goto (which means it is more elementary than structured programming).
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      468 |     Boehm's and Jacopini's insight can be further simplified with the use of
@@ -1903,13 +1346,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     473 | Programming languages can be used to accomplish different tasks in different
-         |                       ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Punctuation (31 priority)
 Message: |
      490 |   the data fields of the object with which they are associated. Thus
@@ -1917,15 +1353,6 @@ Message: |
      491 |   object-oriented computer programs are made out of objects that interact with
 Suggest:
   - Insert “,”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     490 |   the data fields of the object with which they are associated. Thus
-     491 |   object-oriented computer programs are made out of objects that interact with
-         |                                     ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     492 |   one another.
 
 
 

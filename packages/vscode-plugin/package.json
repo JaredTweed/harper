@@ -3888,8 +3888,8 @@
 				"harper.linters.PassiveVoice": {
 					"scope": "resource",
 					"type": "boolean",
-					"default": true,
-					"description": "Detects likely passive voice while avoiding common participial adjectives."
+					"default": false,
+					"description": "Optionally highlights possible passive voice for review; some passive constructions are appropriate."
 				},
 				"harper.linters.PayForPrice": {
 					"scope": "resource",

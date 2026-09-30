@@ -4,7 +4,7 @@ use harper_core::spell::FstDictionary;
 use harper_core::{Dialect, Document};
 
 /// Creates a unit test checking that the linting of a Markdown document (in
-/// `tests_sources`) produces the expected number of lints, including enabled style advice.
+/// `tests_sources`) produces the expected number of lints.
 macro_rules! create_test {
     ($filename:ident.md, $correct_expected:expr, $dialect:expr) => {
         paste::paste! {
@@ -36,7 +36,7 @@ macro_rules! create_test {
 }
 
 /// Creates a unit test checking that the linting of an Org mode document (in
-/// `tests_sources`) produces the expected number of lints, including enabled style advice.
+/// `tests_sources`) produces the expected number of lints.
 macro_rules! create_org_test {
     ($filename:ident.org, $correct_expected:expr, $dialect:expr) => {
         paste::paste! {
@@ -67,17 +67,17 @@ macro_rules! create_org_test {
     };
 }
 
-create_test!(whack_bullets.md, 2, Dialect::American);
+create_test!(whack_bullets.md, 1, Dialect::American);
 create_test!(issue_109.md, 0, Dialect::American);
 create_test!(issue_109_ext.md, 0, Dialect::American);
-create_test!(chinese_lorem_ipsum.md, 3, Dialect::American);
-create_test!(obsidian_links.md, 5, Dialect::American);
+create_test!(chinese_lorem_ipsum.md, 2, Dialect::American);
+create_test!(obsidian_links.md, 2, Dialect::American);
 create_test!(issue_267.md, 0, Dialect::American);
-create_test!(proper_noun_capitalization.md, 5, Dialect::American);
-create_test!(amazon_hostname.md, 1, Dialect::American);
-create_test!(issue_159.md, 2, Dialect::American);
+create_test!(proper_noun_capitalization.md, 3, Dialect::American);
+create_test!(amazon_hostname.md, 0, Dialect::American);
+create_test!(issue_159.md, 1, Dialect::American);
 create_test!(issue_358.md, 0, Dialect::American);
-create_test!(issue_195.md, 1, Dialect::American);
+create_test!(issue_195.md, 0, Dialect::American);
 create_test!(issue_118.md, 0, Dialect::American);
 create_test!(lots_of_latin.md, 1, Dialect::American);
 create_test!(pr_504.md, 1, Dialect::American);
@@ -85,11 +85,11 @@ create_test!(pr_452.md, 2, Dialect::American);
 create_test!(hex_basic_clean.md, 0, Dialect::American);
 create_test!(hex_basic_dirty.md, 1, Dialect::American);
 create_test!(misc_closed_compound_clean.md, 0, Dialect::American);
-create_test!(statist_localist.md, 2, Dialect::American);
-create_test!(yogurt_british_clean.md, 4, Dialect::British);
+create_test!(statist_localist.md, 0, Dialect::American);
+create_test!(yogurt_british_clean.md, 0, Dialect::British);
 create_test!(issue_1581.md, 0, Dialect::British);
 create_test!(issue_2054.md, 6, Dialect::British);
-create_test!(issue_1988.md, 1, Dialect::American);
+create_test!(issue_1988.md, 0, Dialect::American);
 create_test!(issue_2054_clean.md, 0, Dialect::British);
 create_test!(issue_1873.md, 0, Dialect::British);
 create_test!(issue_2246.md, 0, Dialect::American);
@@ -102,7 +102,7 @@ create_test!(allows_domain_extensions.md, 0, Dialect::American);
 create_test!(issue_2151.md, 4, Dialect::British);
 
 // Make sure it doesn't panic
-create_test!(lukas_homework.md, 6, Dialect::American);
+create_test!(lukas_homework.md, 4, Dialect::American);
 
 // Org mode tests
-create_org_test!(index.org, 54, Dialect::American);
+create_org_test!(index.org, 49, Dialect::American);

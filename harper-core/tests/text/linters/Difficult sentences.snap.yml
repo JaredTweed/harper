@@ -7,27 +7,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-       5 | Note that some word may **not** be tagged correctly right now.
-         |                     ^~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-       7 | Most example sentences are taken from https://en.wiktionary.org/. License: CC BY-SA 4.0.
-         |                        ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      18 | Caesar was at Rome; a climate treaty was signed at Kyoto in 1997.
-         |                                      ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
       20 | at the bottom of the page; sitting at the table; at church; at sea
@@ -46,27 +25,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      54 | The matter was decided by the chairman.
-         |            ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      55 | The boat was swamped by the water.
-         |          ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      56 | He was protected by his body armour.
-         |    ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
       56 | He was protected by his body armour.
@@ -78,40 +36,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      65 | The electricity was cut off, so we had to read by candlelight.
-         |                 ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      70 | Table 1 shows details of our employees broken down by sex and age.
-         |                                        ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      76 | sold by the yard; cheaper if bought by the gross
-         | ^~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
       76 | sold by the yard; cheaper if bought by the gross
          | ^~~~ This sentence does not start with a capital letter
 Suggest:
   - Replace with: “Sold”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      80 | The pickers are paid by the bushel.
-         |             ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -145,26 +75,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     155 | He is named for his grandfather.
-         |    ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
      160 | to account for one's whereabouts.
          | ^~ This sentence does not start with a capital letter
 Suggest:
   - Replace with: “To”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     169 | This figure has been changed from a one to a seven.
-         |             ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -187,13 +103,6 @@ Suggest:
   - Replace with: “traveling”
   - Replace with: “travailing”
   - Replace with: “travelings”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     223 | His speech was in French, but was simultaneously translated into eight languages.
-         |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -251,27 +160,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     272 | Finally she was relieved of the burden of caring for her sick husband.
-         |             ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     274 | The word is believed to be of Japanese origin.
-         |          ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     277 | It is said that she died of a broken heart.
-         |    ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      280 | Welcome to the historic town of Harwich.
@@ -289,13 +177,6 @@ Message: |
 Suggest:
   - Replace with: “behavior”
   - Replace with: “behaviors”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     287 | The owner of the nightclub was arrested.
-         |                            ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -367,13 +248,6 @@ Message: |
          | ^~~ This sentence does not start with a capital letter
 Suggest:
   - Replace with: “And”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     338 | The suspect is thought to still be on the campus.
-         |             ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -453,26 +327,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     411 | His face was beaten to a pulp.
-         |          ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Formatting (63 priority)
 Message: |
      440 | The match result was 10-5, with John scoring three goals.
          |                        ^ Use an en dash (–) in ranges of numbers. Ignore this if it is math.
 Suggest:
   - Replace with: “–”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     442 | Four people were injured, with one of them in critical condition.
-         |             ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -491,13 +351,6 @@ Message: |
          | ^~~ This sentence does not start with a capital letter
 Suggest:
   - Replace with: “Cut”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     460 | The sailors were infected with malaria.
-         |             ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 

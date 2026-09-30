@@ -3217,7 +3217,7 @@
 						{
 							"Bool": {
 								"name": "PassiveVoice",
-								"state": true,
+								"state": false,
 								"label": "Passive Voice"
 							}
 						},

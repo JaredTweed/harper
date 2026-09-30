@@ -73,13 +73,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-      43 | shelves as she passed; it was labelled “ORANGE MARMALADE”, but to her great
-         |                           ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
       55 | centre of the earth. Let me see: that would be four thousand miles down, I
@@ -176,30 +169,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       89 | and the White Rabbit was still in sight, hurrying down it. There was not a
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      89 | and the White Rabbit was still in sight, hurrying down it. There was not a
-      90 | moment to be lost: away went Alice like the wind, and was just in time to hear
-         |        ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      92 | She was close behind it when she turned the corner, but the Rabbit was no longer
-      93 | to be seen: she found herself in a long, low hall, which was lit up by a row of
-         | ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-      93 | to be seen: she found herself in a long, low hall, which was lit up by a row of
-         |                                                          ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-      94 | lamps hanging from the roof.
 
 
 
@@ -314,13 +283,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     137 | However, this bottle was not marked “poison,” so Alice ventured to taste it, and
-         |                      ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      146 | door into that lovely garden. First, however, she waited for a few minutes to
@@ -331,14 +293,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      149 | altogether, like a candle. I wonder what I should be like then?” And she tried
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     150 | to fancy what the flame of a candle is like after the candle is blown out, for
-         |                                                              ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     151 | she could not remember ever having seen such a thing.
 
 
 
@@ -393,15 +347,6 @@ Message: |
          | ^~~~~~~~~ Vocabulary enhancement: use `excellent` instead of `very good`
 Suggest:
   - Replace with: “excellent”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     172 | opened it, and found in it a very small cake, on which the words “EAT ME” were
-         |                                                                           ^~~~~
-     173 | beautifully marked in currants. “Well, I’ll eat it,” said Alice, “and if it
-         | ~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -527,14 +472,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     234 | everything is to-day! And yesterday things went on just as usual. I wonder if
-     235 | I’ve been changed in the night? Let me think: was I the same when I got up this
-         | ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Miscellaneous (31 priority)
 Message: |
      238 | puzzle!” And she began thinking over all the children she knew that were of the
@@ -544,27 +481,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     238 | puzzle!” And she began thinking over all the children she knew that were of the
-     239 | same age as herself, to see if she could have been changed for any of them.
-         |                                    ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
      243 | all sorts of things, and she, oh! she knows such a very little! Besides, she’s
          |                                   ^~~ This sentence does not start with a capital letter
 Suggest:
   - Replace with: “She”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     249 | Rome—no, that’s all wrong, I’m certain! I must have been changed for Mabel! I’ll
-         |                                           ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -635,14 +557,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     281 | garden!” and she ran with all speed back to the little door: but, alas! the
-     282 | little door was shut again, and the little golden key was lying on the glass
-         |             ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Capitalization (31 priority)
 Message: |
      287 | As she said these words her foot slipped, and in another moment, splash! she was
@@ -673,21 +587,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      293 | spades, then a row of lodging houses, and behind them a railway station.)
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 57 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     298 | her way out. “I shall be punished for it now, I suppose, by being drowned in my
-         |                 ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     298 | her way out. “I shall be punished for it now, I suppose, by being drowned in my
-         |                                                             ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     299 | own tears! That will be a queer thing, to be sure! However, everything is queer
 
 
 
@@ -879,30 +778,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     378 | refused to tell its age, there was no more to be said.
-         |                                            ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     387 | driest thing I know. Silence all round, if you please! ‘William the Conqueror,
-     388 | whose cause was favoured by the pope, was soon submitted to by the English, who
-         |             ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     387 | driest thing I know. Silence all round, if you please! ‘William the Conqueror,
-     388 | whose cause was favoured by the pope, was soon submitted to by the English, who
-         |                                       ^~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     389 | wanted leaders, and had been of late much accustomed to usurpation and conquest.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      390 | Edwin and Morcar, the earls of Mercia and Northumbria—’”
@@ -987,14 +862,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     438 | doesn’t matter,” it said,) and then all the party were placed along the course,
-         |                                                   ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     439 | here and there. There was no “One, two, three, and away,” but they began running
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      445 | This question the Dodo could not answer without a great deal of thought, and it
@@ -1029,14 +896,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     479 | the large birds complained that they could not taste theirs, and the small ones
-     480 | choked and had to be patted on the back. However, it was over at last, and they
-         |            ^~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Formatting (255 priority)
 Message: |
      502 | > Fury: ‘I’ll try the whole cause, and condemn you to death.’”
@@ -1064,14 +923,6 @@ Suggest:
   - Replace with: “Lord”
   - Replace with: “Lore”
   - Replace with: “Lorry”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     547 | away, my dears! It’s high time you were all in bed!” On various pretexts they
-     548 | all moved off, and Alice was soon left alone.
-         |                          ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1112,14 +963,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     565 | of white kid gloves, and she very good-naturedly began hunting about for them,
-     566 | but they were nowhere to be seen—everything seemed to have changed since her
-         |          ^~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      579 | little house, on the door of which was a bright brass plate with the name “W.
@@ -1128,14 +971,6 @@ Suggest:
   - Replace with: “We”
   - Replace with: “WA”
   - Replace with: “WI”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     581 | in great fear lest she should meet the real Mary Ann, and be turned out of the
-         |                                                           ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     582 | house before she had found the fan and gloves.
 
 
 
@@ -1160,14 +995,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      595 | looking-glass. There was no label this time with the words “DRINK ME,” but
          | ~~~~~~~~~~~~~~ This sentence is 71 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     602 | half the bottle, she found her head pressing against the ceiling, and had to
-     603 | stoop to save her neck from being broken. She hastily put down the bottle,
-         |                             ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1208,22 +1035,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     620 | “It was much pleasanter at home,” thought poor Alice, “when one wasn’t always
-     621 | growing larger and smaller, and being ordered about by mice and rabbits. I
-         |                                 ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     625 | and now here I am in the middle of one! There ought to be a book written about
-         |                                                                  ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     626 | me, that there ought! And when I grow up, I’ll write one—but I’m grown up now,”
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      643 | came a little pattering of feet on the stairs. Alice knew it was the Rabbit
@@ -1234,15 +1045,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      646 | had no reason to be afraid of it.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     648 | Presently the Rabbit came up to the door, and tried to open it; but, as the door
-     649 | opened inwards, and Alice’s elbow was pressed hard against it, that attempt
-         |                                   ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     650 | proved a failure. Alice heard it say to itself “Then I’ll go round and get in at
 
 
 
@@ -1380,14 +1182,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     740 | waiting outside. The poor little Lizard, Bill, was in the middle, being held up
-         |                                                                   ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     741 | by two guinea-pigs, who were giving it something out of a bottle. They all made
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      749 | It sounded an excellent plan, no doubt, and very neatly and simply arranged; the
@@ -1443,22 +1237,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     763 | it; then Alice dodged behind a great thistle, to keep herself from being run
-         |                                                                    ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     764 | over; and the moment she appeared on the other side, the puppy made another rush
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     766 | Alice, thinking it was very like having a game of play with a cart-horse, and
-     767 | expecting every moment to be trampled under its feet, ran round the thistle
-         |                        ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
      777 | “And yet what a dear little puppy it was!” said Alice, as she leant against a
@@ -1468,14 +1246,6 @@ Suggest:
   - Replace with: “lean”
   - Replace with: “learnt”
   - Replace with: “least”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     780 | do it! Oh dear! I’d nearly forgotten that I’ve got to grow up again! Let me
-     781 | see—how is it to be managed? I suppose I ought to eat or drink something or
-         |         ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1514,15 +1284,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     805 | shyly, “I—I hardly know, sir, just at present—at least I know who I was when I
-     806 | got up this morning, but I think I must have been changed several times since
-         |                                    ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     807 | then.”
-
-
-
 Lint:    Readability (127 priority)
 Message: |
      822 | “Well, perhaps you haven’t found it so yet,” said Alice; “but when you have to
@@ -1531,13 +1292,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      824 | butterfly, I should think you’ll feel it a little queer, won’t you?”
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     858 | its mouth again, and said, “So you think you’re changed, do you?”
-         |                                          ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1562,30 +1316,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-     904 | “That is not said right,” said the Caterpillar.
-         |       ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     906 | “Not quite right, I’m afraid,” said Alice, timidly; “some of the words have got
-         |                                                                        ^~~~~~~~~
-     907 | altered.”
-         | ~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     921 | Alice said nothing: she had never been so much contradicted in her life before,
-         |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     922 | and she felt that she was losing her temper.
-
-
-
 Lint:    Enhancement (31 priority)
 Message: |
      929 | “It is a very good height indeed!” said the Caterpillar angrily, rearing itself
@@ -1603,29 +1333,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      960 | at once to eat some of the other bit. Her chin was pressed so closely against
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 41 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     958 | She was a good deal frightened by this very sudden change, but she felt that
-         |                     ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     958 | She was a good deal frightened by this very sudden change, but she felt that
-     959 | there was no time to be lost, as she was shrinking rapidly; so she set to work
-         |                   ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     960 | at once to eat some of the other bit. Her chin was pressed so closely against
-         |                                                ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-     961 | her foot, that there was hardly room to open her mouth; but she did it at last,
 
 
 
@@ -1652,15 +1359,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      968 | far below her.
          | ~~~~~~~~~~~~~~ This sentence is 58 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-     965 | into alarm in another moment, when she found that her shoulders were nowhere to
-         |                                                                 ^~~~~~~~~~~~~~~~
-     966 | be found: all she could see, when she looked down, was an immense length of
-         | ~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -1746,14 +1444,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1051 | another! However, I’ve got back to my right size: the next thing is, to get into
-    1052 | that beautiful garden—how is that to be done, I wonder?” As she said this, she
-         |                                   ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     1055 | this size: why, I should frighten them out of their wits!” So she began nibbling
@@ -1789,13 +1479,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1065 | with his knuckles. It was opened by another footman in livery, with a round
-         |                       ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
     1078 | Alice laughed so much at this, that she had to run back into the wood for fear
@@ -1809,13 +1492,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1116 | It was, no doubt: only Alice did not like to be told so. “It’s really dreadful,”
-         |                                           ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
     1130 | The door led right into a large kitchen, which was full of smoke from one end to
@@ -1826,15 +1502,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1133 | which seemed to be full of soup.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 52 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1150 | She said the last word with such sudden violence that Alice quite jumped; but
-    1151 | she saw in another moment that it was addressed to the baby, and not to her, so
-         |                                   ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1152 | she took courage, and went on again:—
 
 
 
@@ -1970,58 +1637,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1261 | still it had very long claws and a great many teeth, so she felt that it ought
-    1262 | to be treated with respect.
-         | ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1279 | Alice felt that this could not be denied, so she tried another question. “What
-         |                      ^~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Punctuation (31 priority)
 Message: |
     1304 | I’m angry. Therefore I’m mad.”
          |            ^~~~~~~~~ Discourse markers at the beginning of a sentence should be followed by a comma.
 Suggest:
   - Insert “,”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1311 | “I should like it very much,” said Alice, “but I haven’t been invited yet.”
-         |                                                  ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1328 | and after a minute or two she walked on in the direction in which the March Hare
-    1329 | was said to live. “I’ve seen hatters before,” she said to herself; “the March
-         | ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1347 | Hare: she thought it must be the right house, because the chimneys were shaped
-         |                                                                    ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1348 | like ears and the roof was thatched with fur. It was so large a house, that she
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1347 | Hare: she thought it must be the right house, because the chimneys were shaped
-    1348 | like ears and the roof was thatched with fur. It was so large a house, that she
-         |                        ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2061,21 +1682,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1359 | it, and talking over its head. “Very uncomfortable for the Dormouse,” thought
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 54 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1356 | There was a table set out under a tree in front of the house, and the March Hare
-         |                   ^~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1376 | “It wasn’t very civil of you to sit down without being invited,” said the March
-         |                                                  ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1377 | Hare.
 
 
 
@@ -2136,14 +1742,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1499 | March Hare,) “—it was at the great concert given by the Queen of Hearts, and I
-         |                                            ^~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1500 | had to sing
-
-
-
 Lint:    Formatting (255 priority)
 Message: |
     1504 | You know the song, perhaps?”
@@ -2162,22 +1760,6 @@ Lint:    Formatting (255 priority)
 Message: |
     1510 | > ‘Up above the world you fly, Like a tea-tray in the sky. Twinkle, twinkle—’”
          |                                                                              ^ This quote has no termination.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1524 | A bright idea came into Alice’s head. “Is that the reason so many tea-things are
-         |                                                                              ^~~~
-    1525 | put out here?” she asked.
-         | ~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1532 | “Exactly so,” said the Hatter: “as the things get used up.”
-         |                                               ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2227,13 +1809,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1638 | but, on being pinched by the Hatter, it woke up again with a little shriek, and
-         |         ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Formatting (255 priority)
 Message: |
     1639 | went on: “—that begins with an M, such as mouse-traps, and the moon, and memory,
@@ -2273,14 +1848,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1666 | bright flower-beds and the cool fountains.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 53 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1681 | “You’d better not talk!” said Five. “I heard the Queen say only yesterday you
-    1682 | deserved to be beheaded!”
-         |          ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2333,21 +1900,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1710 | ten courtiers; these were ornamented all over with diamonds, and walked two and
-         |                      ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1715 | hurried nervous manner, smiling at everything that was said, and went by without
-         |                                                    ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1716 | noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a
-
-
-
 Lint:    Readability (127 priority)
 Message: |
     1720 | Alice was rather doubtful whether she ought not to lie down on her face like the
@@ -2373,22 +1925,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1741 | children.
          | ~~~~~~~~~ This sentence is 58 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1772 | “You shan’t be beheaded!” said Alice, and she put them into a large flower-pot
-         |             ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1783 | The soldiers were silent, and looked at Alice, as the question was evidently
-         |                                                                ^~~~~~~~~~~~~~
-    1784 | meant for her.
-         | ~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2462,14 +1998,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1842 | She was looking about for some way of escape, and wondering whether she could
-    1843 | get away without being seen, when she noticed a curious appearance in the air:
-         |                  ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
     1858 | “I don’t think they play at all fairly,” Alice began, in rather a complaining
@@ -2499,13 +2027,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1890 | “Well, it must be removed,” said the King very decidedly, and he called the
-         |           ^~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Style (31 priority)
 Message: |
     1894 | The Queen had only one way of settling all difficulties, great or small. “Off
@@ -2525,14 +2046,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1903 | such confusion that she never knew whether it was her turn or not. So she went
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 47 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1901 | already heard her sentence three of the players to be executed for having missed
-         |                                                 ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1902 | their turns, and she did not like the look of things at all, as the game was in
 
 
 
@@ -2586,14 +2099,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1923 | The moment Alice appeared, she was appealed to by all three to settle the
-         |                                ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1924 | question, and they repeated their arguments to her, though, as they all spoke at
-
-
-
 Lint:    Readability (127 priority)
 Message: |
     1927 | The executioner’s argument was, that you couldn’t cut off a head unless there
@@ -2602,14 +2107,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     1929 | and he wasn’t going to begin at his time of life.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 43 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    1931 | The King’s argument was, that anything that had a head could be beheaded, and
-         |                                                        ^~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1932 | that you weren’t to talk nonsense.
 
 
 
@@ -2687,14 +2184,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    1988 | “Somebody said,” Alice whispered, “that it’s done by everybody minding their own
-         |                                         ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    1989 | business!”
-
-
-
 Lint:    WordChoice (63 priority)
 Message: |
     2009 | “Right, as usual,” said the Duchess: “what a clear way you have of putting
@@ -2717,14 +2206,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2025 | appeared to them to be otherwise.’”
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 67 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2049 | middle of her favourite word ‘moral,’ and the arm that was linked into hers
-         |                                                        ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2050 | began to tremble. Alice looked up, and there stood the Queen in front of them,
 
 
 
@@ -2751,29 +2232,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2073 | Alice, were in custody and under sentence of execution.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 58 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2069 | other players, and shouting “Off with his head!” or “Off with her head!” Those
-    2070 | whom she sentenced were taken into custody by the soldiers, who of course had to
-         |                    ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2071 | leave off being arches to do this, so that by the end of half an hour or so
-    2072 | there were no arches left, and all the players, except the King, the Queen, and
-         |                      ^~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2080 | “It’s the thing Mock Turtle Soup is made from,” said the Queen.
-         |                                  ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -2834,14 +2292,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2108 | “Everybody says ‘come on!’ here,” thought Alice, as she went slowly after it: “I
-    2109 | never was so ordered about in all my life, never!”
-         |       ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     2114 | his sorrow?” she asked the Gryphon, and the Gryphon answered, very nearly in the
@@ -2877,21 +2327,6 @@ Message: |
          |     ^~ The form of the verb must agree in grammatical number with the pronoun.
 Suggest:
   - Replace with: “does”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2133 | These words were followed by a very long silence, broken only by an occasional
-         |             ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2133 | These words were followed by a very long silence, broken only by an occasional
-         |                                                   ^~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2134 | exclamation of “Hjckrrh!” from the Gryphon, and the constant heavy sobbing of
 
 
 
@@ -3070,13 +2505,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2231 | “That’s the reason they’re called lessons,” the Gryphon remarked: “because they
-         |                    ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     2231 | “That’s the reason they’re called lessons,” the Gryphon remarked: “because they
@@ -3114,14 +2542,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2255 | have no idea what a delightful thing a Lobster Quadrille is!”
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 52 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2252 | “You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and
-    2253 | perhaps you were never even introduced to a lobster—” (Alice began to say “I
-         |             ^~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3278,13 +2698,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2347 | dance. So they got thrown out to sea. So they had to fall a long way. So they
-         |                ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     2354 | “I can tell you more than that, if you like,” said the Gryphon. “Do you know why
@@ -3322,26 +2735,12 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2373 | “And what are they made of?” Alice asked in a tone of great curiosity.
-         |           ^~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     2375 | “Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp
          |                                  ^~~~~~~ Did you mean `Krypton`?
 Suggest:
   - Replace with: “Krypton”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2382 | “They were obliged to have him with them,” the Mock Turtle said: “no wise fish
-         |       ^~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -3469,14 +2868,6 @@ Message: |
          |                                  ^~~~~~~ Did you mean `Krypton`?
 Suggest:
   - Replace with: “Krypton”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2448 | “It’s the first position in dancing.” Alice said; but was dreadfully puzzled by
-         |                                                       ^~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2449 | the whole thing, and longed to change the subject.
 
 
 
@@ -3833,13 +3224,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2494 | it, when a cry of “The trial’s beginning!” was heard in the distance.
-         |                                            ^~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     2496 | “Come on!” cried the Gryphon, and, taking Alice by the hand, it hurried off,
@@ -3929,15 +3313,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2527 | “And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was
-         |                                                                              ^~~~
-    2528 | obliged to say “creatures,” you see, because some of them were animals, and some
-         | ~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Spelling (63 priority)
 Message: |
     2534 | The twelve jurors were all writing very busily on slates. “What are they doing?”
@@ -3981,22 +3356,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2557 | slate.
          | ~~~~~~ This sentence is 62 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2554 | (it was Bill, the Lizard) could not make out at all what had become of it; so,
-    2555 | after hunting all about for it, he was obliged to write with one finger for the
-         |                                    ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2556 | rest of the day; and this was of very little use, as it left no mark on the
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2577 | “for bringing these in: but I hadn’t quite finished my tea when I was sent for.”
-         |                                                                   ^~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4057,14 +3416,6 @@ Suggest:
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2678 | Here one of the guinea-pigs cheered, and was immediately suppressed by the
-         |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2679 | officers of the court. (As that is rather a hard word, I will just explain to
-
-
-
 Lint:    Formatting (255 priority)
 Message: |
     2684 | “I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the
@@ -4073,25 +3424,10 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2685 | newspapers, at the end of trials, “There was some attempts at applause, which
-    2686 | was immediately suppressed by the officers of the court,” and I never understood
-         | ^~~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Formatting (255 priority)
 Message: |
     2687 | what it meant till now.”
          |                        ^ This quote has no termination.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2695 | Here the other guinea-pig cheered, and was suppressed.
-         |                                        ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4146,15 +3482,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2756 | kept running in her head, and she had a vague sort of idea that they must be
-         |                                                                      ^~~~~~~~
-    2757 | collected at once and put back into the jury-box, or they would die.
-         | ~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Readability (127 priority)
 Message: |
     2769 | As soon as the jury had a little recovered from the shock of being upset, and
@@ -4170,45 +3497,6 @@ Message: |
 
 
 
-Lint:    Style (180 priority)
-Message: |
-    2769 | As soon as the jury had a little recovered from the shock of being upset, and
-    2770 | their slates and pencils had been found and handed back to them, they set to
-         |                          ^~~~~~~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2771 | work very diligently to write out a history of the accident, all except the
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2821 | jumping up in a great hurry; “this paper has just been picked up.”
-         |                                          ^~~~~~~~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2825 | “I haven’t opened it yet,” said the White Rabbit, “but it seems to be a letter,
-    2826 | written by the prisoner to—to somebody.”
-         | ^~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2828 | “It must have been that,” said the King, “unless it was written to nobody, which
-         |                                                     ^~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-    2829 | isn’t usual, you know.”
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2831 | “Who is it directed to?” said one of the jurymen.
-         |      ^~~~~~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
-
-
-
 Lint:    Formatting (255 priority)
 Message: |
     2870 | > “They told me you had been to her, And mentioned me to him: She gave me a good
@@ -4220,14 +3508,6 @@ Lint:    Formatting (255 priority)
 Message: |
     2886 | > from all the rest, Between yourself and me.”
          |                                              ^ This quote has no termination.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2904 | The Knave shook his head sadly. “Do I look like it?” he said. (Which he
-    2905 | certainly did not, being made entirely of cardboard.)
-         |                    ^~~~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 
@@ -4310,15 +3590,6 @@ Message: |
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     2970 | alive with the strange creatures of her little sister’s dream.
          | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This sentence is 84 words long.
-
-
-
-Lint:    Style (180 priority)
-Message: |
-    2965 | First, she dreamed of little Alice herself, and once again the tiny hands were
-         |                                                                           ^~~~~
-    2966 | clasped upon her knee, and the bright eager eyes were looking up into hers—she
-         | ~~~~~~~ Possible passive voice. Consider naming the actor and using active voice when that would make the sentence clearer.
 
 
 

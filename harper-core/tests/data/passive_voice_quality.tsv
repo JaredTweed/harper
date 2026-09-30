@@ -1,4 +1,11 @@
 # Hand-labeled challenge cases. Columns: category, text, expected lint spans (| separated, or -).
+issue-1500	Termination is guaranteed on any input.	is guaranteed
+issue-1500	Termination is guaranteed on any input by a finite state-space.	is guaranteed
+issue-1500	A finite state-space guarantees termination on any input.	-
+issue-1500	4 mL HCl were added to the solution.	were added
+issue-1500	We added 4 mL HCl to the solution.	-
+agent-boundary	The proposal was approved on Tuesday by the board.	was approved
+agent-boundary	The team was exhausted on Monday and the report was reviewed by Alice.	was reviewed
 coordination	The contract was signed by Alice and canceled by Bob.	was signed|canceled
 coordination	The report was reviewed by Maya but rejected by the board.	was reviewed|rejected
 coordination	The manuscript was written by Ada, edited by Ben, and published by a press.	was written|edited|published
